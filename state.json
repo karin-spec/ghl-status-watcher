@@ -1,0 +1,999 @@
+{
+  "bodies": {
+    "1011676": [
+      "this is resolved now systems are restored back to normal",
+      "we ve identified an issue with pinterest s api that is causing some social planner posts to pinterest to fail posting to all other platforms is working normally the issue began on aug 12 at 4 00 pm utc and originates on pinterest s side we re monitoring the situation closely and following up with pinterest failed pinterest posts can be retried from social planner once the issue is resolved we ll share further updates as we learn more"
+    ],
+    "1015841": [
+      "systems are restored operations are back to normal now",
+      "we ve been seeing issues with creating opportunities and moving leads from one stage to another team is looking into this"
+    ],
+    "1017903": [
+      "systems are restored to normal snapshots should load fine now in sub accounts",
+      "we are currently seeing delays when loading snapshots into sub accounts users may experience longer than usual processing times when applying a snapshot our team is actively investigating the issue existing sub account data is not affected we will share an update shortly"
+    ],
+    "1021504": [
+      "the issue has been resolved and the service is now operating normally affected areas the marketplace developer interface was unavailable some public apis may have experienced errors including oauth token refresh failures and pit verification failures some marketplace workflow triggers and actions may have been skipped the marketplace ui within the highlevel interface was inaccessible",
+      "we re experiencing issues with the marketplace apis our team is investigating the issue and working to restore normal service"
+    ],
+    "1023499": [
+      "this incident has been resolved our team identified the issue implemented a fix and verified that services are operating normally",
+      "we have identified issues with social planner and funnel builder where pages are randomly going blank our team is actively looking into the issue"
+    ],
+    "1032885": [
+      "the issue has been resolved",
+      "we are actively working in this issue and we figured out the mostly affected customer are using optimum isp if you are experiencing the same issue please raise a support ticket with your isp optimum and report the dns connectivity issue request a permanent resolution from the isp as this appears to be related to their dns resolution for support ticket reference mention this tl dr customer s isp dns returned a wrong ip for our api hostnames so browsers couldn t reach our apis impact all data loading features failed while the frontend still loaded this affected every page and reproduced across browsers because dns is resolved at the os level root cause the isp resolver returned an incorrect ip instead of the correct cloudflare records causing err connection refused workaround steps to resolve the issue steps to resolve customers seeing pages not loading connection errors confirm it s this issue have the customer run nslookup services leadconnectorhq com windows command prompt mac terminal if the address returned is anything other than cloudflare space 104 18 x or 172 64 x e g a single 167 206 x address it s this issue apply the fix below option a chrome only fastest no admin rights chrome settings privacy and security security use secure dns select with cloudflare 1 1 1 1 quit chrome completely and reopen best option on a screenshare no terminal no admin password option b system wide recommended fixes all browsers set dns servers to 1 1 1 1 8 8 8 8 2606 4700 4700 1111 ipv6 don t skip this the ipv6 entry matters the bad resolver was reached over ipv6 so if only ipv4 is changed the os may keep using it windows settings network internet wi fi or ethernet hardware properties dns server assignment edit manual turn on ipv4 and ipv6 enter the above save then in command prompt ipconfig flushdns macos system settings network wi fi details dns add each entry ok then in terminal sudo dscacheutil flushcache sudo killall hup mdnsresponder verify re run nslookup services leadconnectorhq com should now return the cloudflare addresses restart the browser and reload highlevel if it still fails clear chrome s internal cache go to chrome net internals dns clear host cache"
+    ],
+    "1036205": [
+      "the issue has been resolved we have validated the fix and it has been successfully rolled out the generate with ai feature will work as expected we will continue to monitor the service to ensure ongoing stability",
+      "the whatsapp ai template generator is currently unavailable while we complete required maintenance related to updates to the underlying ai infrastructure our team has identified the issue and prepared a fix we are currently completing quality assurance testing before deploying the update we appreciate your patience and will provide an update once the feature has been fully restored"
+    ],
+    "1045460": [
+      "the issue affecting opportunities contacts calendar and conversations has been resolved all affected modules are now functioning normally we have confirmed that the system is operating as expected and will continue to monitor for any further issues",
+      "contacts and opportunities are now working as expected we are continuing to monitor the system we ll provide another update as soon as we have further information",
+      "we re investigating an issue affecting calendar opportunities contacts and several related features our team is actively investigating the issue and working to restore normal functionality we ll provide another update as soon as we have more information"
+    ],
+    "901732": [
+      "we have resolved the issue",
+      "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
+      "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available"
+    ],
+    "901738": [
+      "the issue affecting bluesky post publishing has been resolved please reach out to support if you are facing any more issues",
+      "we re currently experiencing an issue with bluesky posting posts may fail or not go through starting around 06 00 am utc today this is due to a partial outage on bluesky s side our team is actively monitoring the situation and will provide updates as we learn more thank you for your patience"
+    ],
+    "901739": [
+      "this issue is now resolved and snapshots should start processing please reach out to support if you are facing any more issues",
+      "we are aware of an issue with snapshots not processing in subaccounts our development team is currently working on a solution"
+    ],
+    "901740": [
+      "the issue has been resolved",
+      "we are currently investigating this issue"
+    ],
+    "901741": [
+      "the issue has been resolved",
+      "we are currently investing the issue"
+    ],
+    "901742": [
+      "we have resolved the issue",
+      "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
+      "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available"
+    ],
+    "901743": [
+      "the issue has been resolved",
+      "our team is actively investigating the issue and working on a resolution we will share updates as soon as we have more information"
+    ],
+    "901744": [
+      "we have resolved the issue voice ai calls are functioning as expected",
+      "voice ai calls were not connecting our team is working on it to identify the issue"
+    ],
+    "901745": [
+      "this has been resolved",
+      "submissions of new a2p profiles impacted due to an ongoing provider issue we are working with our partners to resolve this at earliest"
+    ],
+    "901746": [
+      "webhook delivery delays occurred due to a configuration issue following a system update the issue has been resolved and all pending events have been successfully processed",
+      "team is looking into the incident"
+    ],
+    "901747": [
+      "the issue has been resolved",
+      "our team is actively monitoring and will provide updates as more information becomes available"
+    ],
+    "901748": [
+      "the issue has been resolved",
+      "team is looking into it"
+    ],
+    "901749": [
+      "we have resolved this issue and service functionality has been restored",
+      "the team has identified the issue and is working on a deployment to resolve this issue",
+      "we are currently experiencing an ongoing issue affecting incoming calls across the platform users on both the mobile app and web app are reporting that incoming calls are not connecting properly calls continue ringing and cannot be picked up this impacts customers using both lc phone and twilio integrated numbers our engineering team is actively investigating the root cause and working on a fix we ll provide the next update as soon as we have more information or a resolution timeline"
+    ],
+    "901750": [
+      "this has been resolved",
+      "some customers are reporting inability to access support via our in app support our team is aware and investigating a solution in the meantime please contact support by calling 1 888 732 4197"
+    ],
+    "901751": [
+      "the issue has been fully resolved and all functionality has been restored the incident was caused by an issue with one of our third party vendors which has now been addressed",
+      "we have identified some partial issues with the first purchase of phone numbers team is running this down"
+    ],
+    "901752": [
+      "the issue has been resolved",
+      "team is working on it"
+    ],
+    "901753": [
+      "the issue has been resolved",
+      "team is working on it"
+    ],
+    "901754": [
+      "the issue has been resolved",
+      "team is working on it"
+    ],
+    "901755": [
+      "the issue has been resolved",
+      "users may encounter failures when accessing the marketplace ui authenticating marketplace apps or executing workflows that rely on marketplace integrations"
+    ],
+    "901756": [
+      "we have added a fix and all newly published posts will follow the corrected behavior",
+      "instagram reels were published successfully but did not appear on users main instagram feeds the posts were only visible in the reels tab resulting in reduced distribution reach and engagement"
+    ],
+    "901757": [
+      "our services are back up and running",
+      "app is currently down as cloudflare is having an outage right now"
+    ],
+    "901758": [
+      "this issue is now resolved if you are still seeing this error please open a chat with support",
+      "we are currently investigating an error your profile submission failed there was some issue while submitting the profile oom command not allowed when used memory maxmemory when submitting a2p profile submissions our development team is running down this issue now"
+    ],
+    "901759": [
+      "we have added a fix and things should be back to normal",
+      "we have added a fix and things should be back to normal",
+      "we re currently seeing delays in resuming contacts within workflows these are purely timing delays no data loss or drops have occurred team is running this down"
+    ],
+    "901760": [
+      "the intermittent chat connectivity issue in communities has been resolved all systems are operating normally",
+      "we re currently observing intermittent connection issues in chats within communities some users may experience delayed messages or temporary disconnections our team is investigating the root cause and monitoring the impact we ll share updates as soon as we have more information"
+    ],
+    "901761": [
+      "we have added a fix for the issue the issue is resolved",
+      "we have identified an issue where reply box is missing in conversations we are adding a fix for it"
+    ],
+    "901762": [
+      "we have added a patch and the issue is fixed",
+      "we have identified an issue in production where the request a review button inside of quick actions is not doing anything when clicked"
+    ],
+    "901764": [
+      "calling functions are recovering now and you should be able to make outbound and inbound calls we will share more details in some time",
+      "we are investigating reports of dialer not working"
+    ],
+    "901765": [
+      "the issue is fixed from our side the impacted users will need to manually re connect their google accounts on the integrations page",
+      "we have identified an issue with google connection getting expired on the sub accounts we are currently working on resolving the issue"
+    ],
+    "901766": [
+      "the issue has been resolved",
+      "we re closely coordinating with cloudflare and working to ensure reliable access as the issue is resolved"
+    ],
+    "901767": [
+      "the issue has been resolved now",
+      "the issue has been resolved now",
+      "slowness issues have been resolved and we are continuing to monitor system performance",
+      "we have identified issues with across the platform team is running this down"
+    ],
+    "901768": [
+      "the issue has been resolved",
+      "we are facing an issue while posting facebook reels due to an issue with the underlying facebook api"
+    ],
+    "901769": [
+      "the issue has been resolved",
+      "the issue has been resolved",
+      "we ve received reports of slowness and our team is currently working to resolve the issue"
+    ],
+    "901770": [
+      "the issue has been resolved",
+      "the issue has been resolved",
+      "team is working on it"
+    ],
+    "901771": [
+      "the issue is resolved",
+      "our chat support is currently down due to a third party outage we ll share updates as soon as service is restored"
+    ],
+    "901772": [
+      "the issue is resolved",
+      "we have identified issues with several areas in our platform sms delays call failures sub account creation conversations sms calls contacts sms calls login via sms onboarding issues multiple areas are impacted due to underlying issues with the cloud providers"
+    ],
+    "901773": [
+      "we have added a patch and the issue is fixed",
+      "the team has identified the issue and working actively on it"
+    ],
+    "901774": [
+      "the fix has been deployed and new leads should now be syncing into the platform as expected if you continue to experience issues please reconnect your facebook account from the integrations page to recover any missed leads sub accounts can perform a manual sync by navigating to facebook card three dot menu troubleshoot sync leads 15 30 days note to prevent duplicate workflow executions ensure re entry is disabled for automations triggered by facebook lead submissions",
+      "the issue has been fully resolved for most of the sub accounts and lead and message syncing has resumed to recover any missed leads users can perform a manual sync by navigating to facebook card three dot menu troubleshoot sync leads 15 30 days",
+      "some sub accounts experienced issues where leads and messages from facebook were not syncing automatically into the platform"
+    ],
+    "901775": [
+      "issue stands resolved now",
+      "we are noticing improvements for most of the sub accounts team is still working on the fixes for remaining sub accounts",
+      "we are running down issues with updates in the opportunities page"
+    ],
+    "901776": [
+      "issue stands resolved now",
+      "ai agents menu item is not visible in the side bar team is investigating the issue and working on the fix"
+    ],
+    "901777": [
+      "the mongo sync worker went into a crash loop which prevented posts from syncing to elastic search as a result posts created between 6 54 pm ist and 7 42 pm ist did not appear in the social planner s list view or calendar view the issue was identified and resolved promptly and normal functionality is restored issue stands resolved now",
+      "social planner scheduled posts not appearing posts not syncing in the social planner causing issues with post visibility in both the list view and calendar view after post creation team is working on it"
+    ],
+    "901778": [
+      "opportunities are now loading fine the service has been restored and the issue is resolved",
+      "opportunities are not loading for some locations and performance is slow the team is currently investigating the issue"
+    ],
+    "901779": [
+      "the issue is now resolved",
+      "customers would see a delay in updates in conversations listing for actions like mark as read unread etc team is investigating this currently"
+    ],
+    "901780": [
+      "the queue has gone down now and normal operations have resumed issue stand resolved now",
+      "we are experiencing intermittent product syncing issues with paypal and stripe sync delays may cause order forms to temporarily not recognize products when listing them team is working on it"
+    ],
+    "901781": [
+      "the issue is completely resolved",
+      "we have added a fix for this we are making sure things are back to normal in few minutes",
+      "we are observing slow delivery of whatsapp messages with some messages going into pending state"
+    ],
+    "901782": [
+      "the issue has now been fixed there should be no delays in the opportunities page",
+      "we are seeing some delays in opportunities sync which is affecting the load times of opportunities main page team is working on the resolution"
+    ],
+    "901783": [
+      "issue stands resolved now",
+      "the add contact to workflows api is returning a 400 bad request error affected users marketplace developers status the team is actively working on a fix and will resolve this as soon as possible"
+    ],
+    "901784": [
+      "issue stand resolved now",
+      "we are currently encountering significant issues with the email template as it is not opening properly this includes both the existing templates and any new templates being created team is working on it"
+    ],
+    "901786": [
+      "team has reverted the recent changes which was causing this issue issue stand resolved now",
+      "social planner schedule post functionality was not working as expected team is working on it"
+    ],
+    "901787": [
+      "workflows should be working as expected",
+      "team is working on it"
+    ],
+    "901788": [
+      "the issue is resolved",
+      "team is working on it"
+    ],
+    "902505": [
+      "this has been resolved api traffic is looking stable",
+      "facebook lead ads api traffic is looking stable for now we keep monitoring the situation and awaiting confirmation from meta about situation being fully resolved",
+      "we ve identified that meta api is experiencing issues impacting facebook leads data and payloads we are actively monitoring the situation and will update you as soon as we have an update or more information available"
+    ],
+    "902506": [
+      "the issue affecting workflow sync for contacts has been resolved active and finished workflow statuses are now syncing correctly and advanced filters smart lists will reflect accurate real time results thank you for your patience",
+      "there is a slowness in syncing the active and finished workflows for contacts the advanced filters smart lists that filter contacts by either active or finished workflows won t show accurate real time results"
+    ],
+    "902507": [
+      "analytics for qr has been restored",
+      "we are currently experiencing issues with analytics data not loading correctly for qr resulting in no data being displayed for some users this issue is related to an ongoing aws outage impacting dependent services we are actively monitoring the situation and working to restore functionality as soon as possible"
+    ],
+    "902508": [
+      "the issue with form and survey analytics not loading has been resolved analytics data is now loading correctly",
+      "we are currently experiencing issues with form and survey analytics not loading correctly resulting in no data being displayed for some users this issue is related to an ongoing aws outage impacting dependent services we are actively monitoring the situation and working to restore functionality as soon as possible"
+    ],
+    "902509": [
+      "the apis have been working back to normal since 24 april 2026 16 00 00 utc issue is resolved",
+      "we are actively monitoring the case and will provide update soon",
+      "we re currently experiencing an issue with meta facebook instagram threads posting posts may fail or not go through starting around 23 april 2026 19 00 00 utc this is due to a partial outage on meta s side our team is actively monitoring the situation and will provide updates as we learn more"
+    ],
+    "910699": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910700": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910701": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910702": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910708": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910709": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910710": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910711": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910712": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910713": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910714": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910715": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910718": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910719": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910720": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910721": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910722": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910723": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910724": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910725": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910726": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910727": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910731": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910732": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910733": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910734": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910735": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910736": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910737": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910738": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910739": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910740": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910741": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910742": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910743": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910744": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910745": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "910746": [
+      "service recovered",
+      "service degradation detected by monitoring"
+    ],
+    "911653": [
+      "summary some order forms were failing to submit due to a recent update this affected forms where the phone number field had been disabled impact affected order forms and funnel pages with the phone number field disabled were unable to be submitted not affected e commerce checkout operated normally resolution we identified the cause rolled back the change and refreshed our systems to restore all affected order forms during this refresh order forms and funnels were being updated across the platform which caused a temporary delay in page load times"
+    ],
+    "912143": [
+      "services are back to normal smart lists should now load successfully",
+      "we re having some trouble with smartlists page we re working to fix the problem as quickly as we can we ll share another update shortly"
+    ],
+    "914717": [
+      "we re back social planner should be up and running thanks for bearing with us",
+      "we are currently investigating a technical issue in social planner that is causing some scheduled posts to remain stuck in the in progress state and not complete as expected"
+    ],
+    "915013": [
+      "branded sites should be up and running smoothly now",
+      "we are facing issues with legacy infrastructure for branded sites team is working towards fixing it"
+    ],
+    "919566": [
+      "gcs issue is resolved and our services are back to normal",
+      "we are working on it and will get back to you shortly with updates"
+    ],
+    "922080": [
+      "the following features are disrupted 1 connecting facebook accounts pages 2 syncing facebook lead ads forms 3 lead sync from facebook 4 social planner meta platform posts are failing due to this dependency 5 whatsapp is also having issues due to this this issue has been resolved"
+    ],
+    "926759": [
+      "the affected deployment has since been rolled back and we are actively monitoring the platform to ensure services remain stable recommended action if you continue to experience this issue please clear your browser cookies or site data before retrying",
+      "we have identified intermittent errors affecting a subset of pages where some users may experience failed page loads and 520 errors"
+    ],
+    "932427": [
+      "we have identified the issue and implemented a fix services have been restored and customers should now be able to receive calls through the mobile app as expected we apologise for the disruption and appreciate your patience while we worked to resolve the issue",
+      "we are currently investigating an issue affecting customers who use the highlevel mobile app as their calling channel affected users may find that their calling preference is automatically switching from the mobile app to the web app preventing them from receiving calls on their mobile devices our engineering team has identified the issue and is actively investigating the issue"
+    ],
+    "950307": [
+      "the issue has been resolved and the fix has been successfully deployed to production we will continue to monitor the system to ensure stability thank you for your patience while we worked to resolve this issue",
+      "we are investigating an issue where published changes may not appear immediately due to a problem with the cache refresh process our engineering team has identified the root cause and the fix is work in progress we will provide additional updates as progress is made"
+    ],
+    "962741": [
+      "the issue has been resolved and the affected service is operating normally again our team has verified that forms are accessible and functioning as expected",
+      "we are currently investigating an issue affecting our form service small subset of users may encounter issue when attempting to access certain forms"
+    ],
+    "965006": [
+      "the issue affecting ai agents not responding to prompts has been resolved services have been restored and ai agents are responding to requests as expected we will continue to monitor the system to ensure stability thank you for your patience during this incident",
+      "we are currently investigating an issue where ai agents are not responding to prompts our team is actively working to identify the cause we will provide further updates on this page as more information becomes available"
+    ],
+    "975352": [
+      "the issue affecting users and account admins while switching between sub accounts locations has been resolved we will continue to monitor the system to ensure stability",
+      "we are investigating an issue impacting some users and account admins who may be unable to switch between sub accounts locations our team is actively working on a fix and will provide updates as more information becomes available"
+    ],
+    "975423": [
+      "the issue has been resolved and course pages are now loading normally we have verified that the affected services are operating as expected and will continue to monitor the platform to ensure stability",
+      "we are currently investigating increased latency affecting course pages our engineering team is actively working to restore normal service we will provide updates as more information becomes available"
+    ],
+    "975493": [
+      "issue stands resolved now and voice ai is stable now",
+      "we are investigating an issue affecting voice ai call processing our engineering team is actively investigating and will provide updates as more information becomes available"
+    ],
+    "987857": [
+      "the issue has been resolved and all services are operating normally we have confirmed that affected systems have recovered and are continuing to monitor performance to ensure stability we appreciate your patience and apologize for any inconvenience caused",
+      "we are currently experiencing an issue affecting some youtube features scheduled youtube video publishing is not affected and continues to work normally the following features may be temporarily unavailable delayed or fail intermittently connecting new youtube accounts deleting youtube posts from social planner custom thumbnails and follow up comments on newly published videos youtube analytics and statistics updates no data has been lost any delayed analytics will automatically sync once the issue is resolved we re actively working with youtube to restore full functionality and will share another update as soon as we have more information"
+    ],
+    "996969": [
+      "issue stands resolved now we will continue to monitor the platform to ensure stability",
+      "investigating we are currently investigating an issue causing subscription payment failed errors across our platform which may impact subscription payment processing for customers our engineering team has identified a potential fix and has deployed a change we will continue to provide updates as more information becomes available thank you for your patience"
+    ],
+    "998022": [
+      "the issue has been resolved and crm opportunities is now operating normally customers should be able to access the opportunities tab and use bulk actions without issue we will continue to monitor the service to ensure stability thank you for your patience while we worked to resolve this incident",
+      "we are investigating an issue affecting crm opportunities some customers may experience a blank screen when opening the opportunities tab and bulk actions may be unavailable our engineering team is actively investigating the issue and working to restore normal service as quickly as possible we will share another update as soon as more information becomes available"
+    ],
+    "999244": [
+      "the issue impacting the ghl mcp service has been resolved and the service is operating normally we will continue to monitor the service to ensure stability thank you for your patience",
+      "we are currently investigating an issue impacting the ghl mcp service customers may experience failures when attempting to perform operations through the highlevel mcp api the service is experiencing intermittent availability due to an ongoing issue our engineering team is actively investigating the root cause and working to restore full service as quickly as possible"
+    ]
+  },
+  "consecutive_failures": 0,
+  "failure_alerted": false,
+  "initialized": true,
+  "last_success": "2026-09-02",
+  "seen": [
+    "g:https://status.gohighlevel.com/incident/1032885#bf6bbbd1502092ea20ec3e31629c11191af949ce14178f54ec93e62edb10025e",
+    "c:55c0a4cc192f1a5f778787bf44b03b46",
+    "g:https://status.gohighlevel.com/incident/1045460#8702c7d7c073cd57e36cb8814c391540ab02f1b5feb54dabe66faf2e85c744d0",
+    "c:c2e3b439152148609c43d600df7c1f09",
+    "g:https://status.gohighlevel.com/incident/1045460#30c6950372706a3d315d361c771bd3e716cdf040fd992dfcee5969bffc296734",
+    "c:76f4d326081057a9697700e238de7916",
+    "g:https://status.gohighlevel.com/incident/1045460#8196ff5bc6673d37d2df3f64750d7f1b4ac22f0645f39d3b5d012b3f1a13991e",
+    "c:f527bb96628c94b2c29329674fbeacca",
+    "g:https://status.gohighlevel.com/incident/1036205#6f2133fdf02716f472828c2966f1cc1f2e462bebb4a0c8aa68c5a99e624ed6cd",
+    "c:6e5f91eb79191b028aaa6220857bdae4",
+    "g:https://status.gohighlevel.com/incident/1036205#a3be6da1858ac95db6eb09ac238aaad5e0d422ee5da94c1197d0833aa21c76eb",
+    "c:bf7cd696536c359950dcf98b304eca0f",
+    "g:https://status.gohighlevel.com/incident/1032885#c32fbee2babbe2b61f8966f6104dc6c131c4d4085c0b943b838f48ea3c97615c",
+    "c:58f5cedc57cb749a849a487820a9fea1",
+    "g:https://status.gohighlevel.com/incident/1023499#34e75ff816f960b34e37ee161689ef211a5d5631edcbf8945776658aa1c534b1",
+    "c:658dee76dabd528a3e09e5144412a213",
+    "g:https://status.gohighlevel.com/incident/1023499#b4ce2506b954bdd6949f60001472bb65276332cb1bef22b223d7b95982aaa2e7",
+    "c:37a27ee95e68de53c7ac77b8d611ee02",
+    "g:https://status.gohighlevel.com/incident/1021504#a00baa0c8146cde59d2af7b8d4fe8b243ccbe2730e2d43c6a3e73d77f0137434",
+    "c:7b469e901d7d57566eeb0d517abffa22",
+    "g:https://status.gohighlevel.com/incident/1021504#ac95d9d638c386e851a3ad339ffa5ada348219c225d7888a7f83a52ad444d115",
+    "c:0f00eca4d7a56f344f5ddb3f719416a3",
+    "g:https://status.gohighlevel.com/incident/1017903#81532b96d241e8781a76202dcef4cd6929c313fe4bed767db0b2531b65edb89d",
+    "c:4723b9ccbc5570e831866327f461186f",
+    "g:https://status.gohighlevel.com/incident/1017903#43e6560ecc6932abe3ad60c759f9d9192f5c482eafa466714e834ac0e6240e12",
+    "c:bc5b0bede27d5d281aad627b65dd8d8f",
+    "g:https://status.gohighlevel.com/incident/1015841#61bf4b1bab652e6b1495607cd86beb544693fe530a5a51be4d0ea7e97d29b3c4",
+    "c:9e62bb568be03b509735bc6769503d04",
+    "g:https://status.gohighlevel.com/incident/1015841#8800c11592ec653540a5a2c512804664796787501b2229d5756b1d613f611eba",
+    "c:cee8b2ad1898fbb9b91945e5e73a41e0",
+    "g:https://status.gohighlevel.com/incident/1011676#c8cd1bafb365e2e0f8e10a4aaad4542c599c92f0037db7b3a6b8f37c9f9b2bc2",
+    "c:f29100f447a642377cd279d03c46232c",
+    "g:https://status.gohighlevel.com/incident/1011676#6b0d4edaf45260c5bb4168209bb91c387439757787f2c0b45a25026d9d105c5f",
+    "c:39e8de3fb25ce180e6244a8d69463ecb",
+    "g:https://status.gohighlevel.com/incident/999244#a0eccbe0c802d7891c6a51b19a255d0a1d69b0cf78b3a1dcd04fbad9c05ee2dd",
+    "c:ee3f156d8bb82b5db3f42b5d609fb797",
+    "g:https://status.gohighlevel.com/incident/999244#d36f94e423ed51e6e8ee24b1eb2ae36a228346f52490cab9a303c1cabf7dec07",
+    "c:e4d5f27d7656a8de8fb3b55abd5c68a3",
+    "g:https://status.gohighlevel.com/incident/998022#59c36482a09bfcad731d2d858ed2a8e740083ff1d5021270efd301143133725f",
+    "c:c0f0eadf013d01eb1baac14e84b6d42b",
+    "g:https://status.gohighlevel.com/incident/998022#bf7c2b5293ca4117cc5c65b5cec26292b4f6c069f444866c80f89522d94bb3c2",
+    "c:d6c40993851f1b876112ac02e08dde76",
+    "g:https://status.gohighlevel.com/incident/996969#90af8076165ca7a30b92064cddebaf4bfae1b7d217a238f3a54c50cf9b1beca7",
+    "c:1e73e5f2ce5e691e2032eb107e528e64",
+    "g:https://status.gohighlevel.com/incident/996969#42abb2e289e9050ea273019644ad9934856ff8479e79cf92e17760350f9474f2",
+    "c:cd5cf3df20615004df9299008c01ffd5",
+    "g:https://status.gohighlevel.com/incident/987857#77cf2aa5d2cb01031965f28b5bc5855d21005ea9404809f805e1fb694df3e154",
+    "c:efdcf9a41c708cf62f15d47753d08a43",
+    "g:https://status.gohighlevel.com/incident/987857#360da381b598234f096d8955bc74ea780665c4e613fffdd4c46577fcc479d9a2",
+    "c:4ae124506801d88a2a02a8eef5514331",
+    "g:https://status.gohighlevel.com/incident/975493#d7f5271fb1357e78eac13926b159c0a158a426b1d136711ee382b2959ab1466d",
+    "c:58cc91765fa884368ccbf2eab88bf6cf",
+    "g:https://status.gohighlevel.com/incident/975493#428747367a727700b00120082da65ea8e55dc3703874125095100be64424de44",
+    "c:c7eb3a39e8432eae1961577acfaa2305",
+    "g:https://status.gohighlevel.com/incident/975423#15fe6ad721a862d7f3101311a3e65c278733bf58ced515c5320c408a7f8772a9",
+    "c:386ddb4ff75d529cd100c8e01c7b307c",
+    "g:https://status.gohighlevel.com/incident/975352#edba8c510ae01bd17fd7edb9ccd08465d84971c7d4df0d699ec76e18201590b1",
+    "c:f277a817c68dab27940352708d9fbffd",
+    "g:https://status.gohighlevel.com/incident/975423#dfc63a806d7fcf29f12fbeb406fc634d367f5f4d777ed71acf4498e6308c70ef",
+    "c:f5cebdc6de45f8ed43875512e4d2bbd6",
+    "g:https://status.gohighlevel.com/incident/975352#4ec38baf79eeed00792af9d3125bac2ca5cc05b80fd1ad9801f76453b0057d4d",
+    "c:b0aa56631cbdf04c67a77a91b746126a",
+    "g:https://status.gohighlevel.com/incident/965006#8bb7c42678e0662ec404975802797168e4b632a14545b197058026832bfed4f7",
+    "c:02e688d3febae7ff07c1148d1649f197",
+    "g:https://status.gohighlevel.com/incident/965006#93231a321f5d8109c78d539f5083e70dbd0e0f07d8a276f16f5bc0d4529e0e1e",
+    "c:f69e765f14248aff574765cf1eda3bc6",
+    "g:https://status.gohighlevel.com/incident/962741#60a934ac4fd414d582a43d9924b2639ee83e3a78e1d77417405ad898f22acca3",
+    "c:e9799136144ce4d486c36da3820a2d6c",
+    "g:https://status.gohighlevel.com/incident/962741#46b43ffe8a24a8cdff6e3606ce1cd96fa93e92b2403590f726b4e15d74dad0b5",
+    "c:bbfd80b8847b1f5c83bca31d09b1ce5a",
+    "g:https://status.gohighlevel.com/incident/950307#0e52b80479d4b55b9d4be2dcba06fe122fb7bf3cecab0a8dbf51cb04e3d750b1",
+    "c:723bee7e4ac700ea8a3b352667b11166",
+    "g:https://status.gohighlevel.com/incident/950307#d9accca14e761c33b5216bb4d79b6ecb4f24fb645283bc5437e22e94bbec892c",
+    "c:a76cabfe7f23d77403afa5d6cd3d8ad1",
+    "g:https://status.gohighlevel.com/incident/932427#dca66f6c9c6d6aa0bc2af542574ddebeebaad6e127e7413ec896c4a17d62c085",
+    "c:6b77f8928572f6a897670f72ff8423e9",
+    "g:https://status.gohighlevel.com/incident/932427#9b202e989a4fb00661190dd87c1a95038f07a6217346df754e5529b02c28f1e9",
+    "c:b5ab998c416b16cc7aa17434b05d5c9b",
+    "g:https://status.gohighlevel.com/incident/926759#61011b120500b7cb9ec2f8487fbfb8d5f12bb71dc4f38f929fdee2c076a2a5a0",
+    "c:9b0f91e2a05ecd61ee4afb33aafdfdf4",
+    "g:https://status.gohighlevel.com/incident/926759#aeeada469ab0728851d3b5e5b5d93e3e9a383750bee252503d81d73a552d1c4c",
+    "c:42b95fba1b231801210c0bf7d7eac282",
+    "g:https://status.gohighlevel.com/incident/922080#8fd36da9b953c0c85df8a7f7e01be6c1d0b827bb0e43b6ef2a7811153c832fd4",
+    "c:454448cf9264d1c11a0251d28cf04b08",
+    "g:https://status.gohighlevel.com/incident/919566#f6973b1eb1c59861b7b66fe6a90d8ce981109f82238e5500977f876aab216b40",
+    "c:d6c10e4d36d25382d4ed1b71d216abb7",
+    "g:https://status.gohighlevel.com/incident/919566#c6f86b4c1adc5b1dc816b602359a48c127d7bb25c33a1e75efcea9642dfa5f27",
+    "c:b0e66e2566d55950b2476c3d83c7cebf",
+    "g:https://status.gohighlevel.com/incident/915013#7d20b3939b985c2079a897302aa18ef2732395229613c9499b4afb57bac81e4c",
+    "c:d9183c502250ca2408899f1759efa8ab",
+    "g:https://status.gohighlevel.com/incident/915013#8d7b19f93dfdf11cb3fb454cc8bc52f02d5586298a6563bb14b28087c415125d",
+    "c:d3ee6ce732d95c6c14f225da4e0ba14d",
+    "g:https://status.gohighlevel.com/incident/914717#4013c77a00ceba87ad540c910d838eff2597083929c2b931d5e6b431c90625b3",
+    "c:52430953d8dcbaca8c05d190dbb42345",
+    "g:https://status.gohighlevel.com/incident/914717#ef647245d84b19bb75358b022d1570321e779ee634ef537da60fbf6b096c646f",
+    "c:606f45a0d5352ac9b609e0b1d40b67b2",
+    "g:https://status.gohighlevel.com/incident/912143#e96d2ba3788b7da2173ef09381349bcf34e4ea249a94c94e359527048ec42cbe",
+    "c:3c38e2393a5ab0d62bbb5951e2aaa30a",
+    "g:https://status.gohighlevel.com/incident/912143#9690e1a2e322b73f492d5971638494bcb905dc3780553f79ada19ac04dd51a98",
+    "c:fedf4c741deea2b0a212b18a565726b6",
+    "g:https://status.gohighlevel.com/incident/911653#1d29ad93b7333fa72c6ce03604a1e0e85863e771ca8b3db7d95929a419c9af31",
+    "c:a6503238aae97c7b1bb826a994905ccb",
+    "g:https://status.gohighlevel.com/incident/902505#58eaa3fff8e3dd0416e7bd1bb2cd5819d138813df3bb4351d2b69a4f90c28bbf",
+    "c:2fe61fd92ad62c106e86d0a7c52518c9",
+    "g:https://status.gohighlevel.com/incident/902505#9009f31383bcd0a85564ce778cfc36ba1eca33547cdbfb8e7ec0273855dd3b21",
+    "c:35485445da7983bd1620811bcb356230",
+    "g:https://status.gohighlevel.com/incident/902505#ef747b7603577274d9d8027d83ee397ae359d7715fd8294a29cccd5bdd7499d0",
+    "c:0fcfcac5e47bb1682d2d50c84226e118",
+    "g:https://status.gohighlevel.com/incident/902506#ab2e926a0353a6aac3b7e8cb606f7ae3c8f9e077f9a483656ae7c89be5007cd1",
+    "c:f2429bfadf8f6d0dd09b3fa9f32712c0",
+    "g:https://status.gohighlevel.com/incident/902506#360ab08f7f602e3e30f6a995717c49c997ab27665a5e3be161f53e6d6b2f0a53",
+    "c:0fb15a68f2c0fee832d6287d9ef3b591",
+    "g:https://status.gohighlevel.com/incident/902508#f2e5197c48d67f47ada92e57c8c4957060445bb2e1b5f286b4d0def7cc2d6e26",
+    "c:5d204695e63159157822d954abc6c2d7",
+    "g:https://status.gohighlevel.com/incident/902507#1360d205da18684ee5009c0a77351ef272b73109cfadcb261ddddeaa412b230c",
+    "c:17078d5313951f2f5982c6a463bb61bb",
+    "g:https://status.gohighlevel.com/incident/902507#b8762d5ff63428e22fc0b709b684dac06e2328aa4b9a106ae8c6b1824370c0b2",
+    "c:5a95a502a7e9433bb63b8690246bb247",
+    "g:https://status.gohighlevel.com/incident/902508#6429f706b90f5ce6ca86e34105ccc4343332da9b9bff228c6f4f2846019bf800",
+    "c:5235400731033a8bd491f4cf038a42c2",
+    "g:https://status.gohighlevel.com/incident/902509#3e4c74ec110a148a848877a445441ff0b044beb3d716cfdb944ea3748c7e4723",
+    "c:b4a76dd06178f7fa97e9556531faca85",
+    "g:https://status.gohighlevel.com/incident/902509#a3644d2dc1b6dec0e3d37f92b29af802adf528363a9d2c5fbc2e79f5ecf9a66d",
+    "c:86537247549407e14f40f0ca20e719cc",
+    "g:https://status.gohighlevel.com/incident/902509#f1e68a5c1581603831a81b074b7050348b085450cc5565df99639e152f05209a",
+    "c:79bdfd716cc7fbe05a48b5f2e0204210",
+    "g:https://status.gohighlevel.com/incident/910746#1b1e31bf1d72366204a5e5b523ae790538b1469041dbbe98db4dc850db8d8bf3",
+    "c:12e8b145eb134d203a1f06bc7eeff785",
+    "g:https://status.gohighlevel.com/incident/910746#0fe51829ec3f9a3d695bbd2caa139cef88e6854b6d981a9d691d6dad86386407",
+    "c:6fb0d32cf32fb4280aae9c0163e690e7",
+    "g:https://status.gohighlevel.com/incident/901738#72b31c955dc7e8bf203bce4914fd3cb1831953fdd3c198c69820aa6019805692",
+    "c:753f4ef4a2521fc15da371b231e71135",
+    "g:https://status.gohighlevel.com/incident/901738#d6a04b1a962183bc54beb1771951050bc5c27fd91fdb792845d8d5e099ab861f",
+    "c:cac2af7a289535af32b2839d625a8a35",
+    "g:https://status.gohighlevel.com/incident/910702#14195276ec5c42ec1b8e9a62b783933175b175910ad84f073bb14ae868452081",
+    "c:a3c9a6c2553e5dbcc3464d8edebda8c8",
+    "g:https://status.gohighlevel.com/incident/910702#0aded6175b5f9a76bba5c6303d49b93aadeb9df75e947f8cf1b4db73feafa16b",
+    "c:6955eed37b4ef48a1399c3a962523814",
+    "g:https://status.gohighlevel.com/incident/910745#655535e758643884b27353d94b8b79e0c12908f4a83640ecd167fe732e7679f6",
+    "c:4dffbb207f296d0ad546fe94a6ccb751",
+    "g:https://status.gohighlevel.com/incident/910745#3cc0a1e3bfd0b692be9c17c2042db1f6638db60d72a46186a4f0b856f4a5b336",
+    "c:49464fd9fcedcb78fbbf48d5298e3d66",
+    "g:https://status.gohighlevel.com/incident/910727#eb80ed1542ea3d70360d6606079b5cacdd6b87acbe2aeb99c04e825567af68d1",
+    "c:1bc5e4bbf41bee33bb7a18ef4f08876b",
+    "g:https://status.gohighlevel.com/incident/910701#b1ddcd45067607179bf698d5b3cbdfd6ec01c6a8f608354bd523a30bedc6ca9f",
+    "c:7775599fb1b1c997e6b9036d81cdcfbc",
+    "g:https://status.gohighlevel.com/incident/910701#1804416e044bf7522a16d09791b00971a924500f25a10b9357af63df28a45fa9",
+    "c:b8e42ab2cebf7fbce8d251b6f511b0e4",
+    "g:https://status.gohighlevel.com/incident/910700#ed22134f0e571f7e42d6cdb807219a866644f2d87dee60e9a3b12b54b328e444",
+    "c:86813daa8467e4d1da47a8ba961a6c2c",
+    "g:https://status.gohighlevel.com/incident/910700#3500a2912c2759e03f00e5e626b9fcce379f48398443ca95ff0d0f3270a1ffbe",
+    "c:8b56cc5d956084233066834520066be4",
+    "g:https://status.gohighlevel.com/incident/910727#2f56b10fa4c68412c64d0f83e79924dab438121b883ed2ad01ac1ba52f648c8a",
+    "c:f06e7f300c4314f0dde9b3e360aa5d07",
+    "g:https://status.gohighlevel.com/incident/910699#249913239eadb30325a8be4abd8ab8d7bb461dc2d76d6adce497dd62cc9945e0",
+    "c:0c41996f8e7d646624f347dc01a0bb73",
+    "g:https://status.gohighlevel.com/incident/910726#5db01d81ab40d90d17565e289b27fed34d330ca8055fe574d9c4c55de753dbad",
+    "c:8c6f38977bef44e24582bf2df8b60822",
+    "g:https://status.gohighlevel.com/incident/910699#c342ba59354311ada1d2de50894cf212accc681e83f18baaf1a39b8db1193ace",
+    "c:9b9b9a793952e6d461c09f74b3701951",
+    "g:https://status.gohighlevel.com/incident/910726#c018a4b60e6b6b304eb3dd0c4ab160726aa6cd520872a2417b4b2e1b1de6d2ef",
+    "c:7bcfcf00cd550bb770304378428d9818",
+    "g:https://status.gohighlevel.com/incident/910725#9d03b23bab2cb761ca993a34a7cab532ac39350440b0b429b8b3c69c7423065b",
+    "c:a3f9418b70ee6a56ed904cf8889e0f70",
+    "g:https://status.gohighlevel.com/incident/910725#0740833506952f3f5002c9e36ecc432fd8fb3718d04d7d98439b5b4d50bd39dc",
+    "c:b4dbd162399b7a2acd4e52cfeaac19ff",
+    "g:https://status.gohighlevel.com/incident/910724#8913196c1538ccf67450792e9fe8f98d09b3a2e694ff09de88d1da8730f5ef32",
+    "c:fb3acfd18189d2b7d29eeb963d26538a",
+    "g:https://status.gohighlevel.com/incident/910724#e51d9a0134581c863f035451eed9bf809f1e05f59fe4605c4206d26360018360",
+    "c:f43d5407aa192f30f3d4b825db6e0ce1",
+    "g:https://status.gohighlevel.com/incident/910723#64d37d12e14daacf978b448d466d76db145204dd3a91efec337f934aa7ebc81e",
+    "c:230e2e6a845070e832ebb1fdf1e539be",
+    "g:https://status.gohighlevel.com/incident/910723#cbe1ba010ad23e9cef065acf376d9bec81fc5561fedcff51b4e08d82d72efcc0",
+    "c:4fd082c1ef7c08666dc5dcc98d31ba8e",
+    "g:https://status.gohighlevel.com/incident/910715#500c0d3c2c14ba699caa9d1ec7d32d83db5d736cccb56a869f84e0d89fd09113",
+    "c:98bfc93b3579844abeab1df1dbadf9ed",
+    "g:https://status.gohighlevel.com/incident/910715#e3a862c216d3b02e49c3191da633d5f39da14a648a8d4b0737b593c86ed844f5",
+    "c:28dafa9c1e8528cd8dba95eae76bf3c2",
+    "g:https://status.gohighlevel.com/incident/910722#33d64eef8c34511e3f36846d1211e47ae5b8d7849bfb8c0d94ec0f519573b089",
+    "c:b371b91c25f2256496ddbc4d33ff0134",
+    "g:https://status.gohighlevel.com/incident/910722#910d1fe51a30ecb114b64d699fc7a8b0dc770993e01b681bed56d883183f3d78",
+    "c:d835308d1c6f0d67689cd2006e5d0014",
+    "g:https://status.gohighlevel.com/incident/910721#3ff240064ed43b6113fb58b49a2f80210a058c8ffa88683fdd4efcaa7fd5ccf2",
+    "c:4ee9a681c8084be538abe109f764284d",
+    "g:https://status.gohighlevel.com/incident/910721#0c6e3ebfb26ba1295e96cb5c8d30ede18cf0cfaf6efe0923f1b0010a792f60e6",
+    "c:d02c1d40b20a832d4de046c66d3ca015",
+    "g:https://status.gohighlevel.com/incident/910744#9ced7e7331039a6fad322187af627372ee7d8c13588e1336ea3f7a12aa1467b6",
+    "c:7644d10f0f6624ce351f1c0bcd85e100",
+    "g:https://status.gohighlevel.com/incident/910744#b6ca905d15022c725d0f6323667b2083a4c6dbe6a129138f9b94d05bb598ad2e",
+    "c:a6cea92698d0f7a87a98c27f1973b60e",
+    "g:https://status.gohighlevel.com/incident/910743#9496b62ea8ab7863d1f7da3b03d5d510172f09410d72aa78008e09251fd22800",
+    "c:b99c17ae9a504c7050d4be7e52ba41cd",
+    "g:https://status.gohighlevel.com/incident/910743#082ba6944ad09e267d1bfb114b2134858a9fde609f13f574139cd0d19b5076a7",
+    "c:9d71d751afa817c54f5b35225a5e4664",
+    "g:https://status.gohighlevel.com/incident/910742#3f1d4594f29fff48f147f458199023443d268a90e30009ebd191122cc170db1f",
+    "c:47bf8a59c2761668319b14f63c50db70",
+    "g:https://status.gohighlevel.com/incident/910742#f8e1da9852d26a508d154ccd86416908751a504d6fb40e4b033f879cd8aef7c8",
+    "c:a3d785a2edc51b0e4430bb4287abc8c7",
+    "g:https://status.gohighlevel.com/incident/910720#e5b449146933bb0f18cf8f92f91fc0f8a88b3de16cb61f909516089abd490318",
+    "c:286403fa021d234f5b04e777eaf97fac",
+    "g:https://status.gohighlevel.com/incident/910720#08a909cb867d2ef64090962f1cf3e016b48d50f1462cc6a86f1ebe943840c4a5",
+    "c:da2e7525503ee4d6eae921419e222525",
+    "g:https://status.gohighlevel.com/incident/910714#e30949644fcbd7da4f031cae8409d6d65c2e1d77056341705eb6e97a008fded2",
+    "c:73225f6ffe1e665b7f18b256bc748795",
+    "g:https://status.gohighlevel.com/incident/910714#e17111c9838f4bf2efbf26cb06a53729a8146d4ab498e561fc96e85addd76f3d",
+    "c:94e5020bf7f901c15e5dd07bcc9d3c48",
+    "g:https://status.gohighlevel.com/incident/910741#1e7ffd439469c87cdd661773455af6f5d4545382a577b1b921ccd93e9a4814f5",
+    "c:e73d52ff4fc82ddbe5ccf19faf225602",
+    "g:https://status.gohighlevel.com/incident/910741#bfeed7c6091dc2e7e1942cb6ad553ff358f084b90874396ed69d188b081be8f4",
+    "c:0fdd0a1d29a008e5f1384f2b418249c8",
+    "g:https://status.gohighlevel.com/incident/910719#9570e971c07b7192a8dfa590de387a47de63761d2756df8f49ccf860ea6d2e26",
+    "c:d40a284fd276ab02c4e3a2299e989038",
+    "g:https://status.gohighlevel.com/incident/910719#ce7762109481ab01315883639bb59d95bfa03a07cd25773e53c39f21b350bf43",
+    "c:2621c6cbb338440bc2d6c0121ea8abbb",
+    "g:https://status.gohighlevel.com/incident/910740#96ac3cc90363cee0ea11056f5246cd1eabdaa4be5eb58bdbfe67ea4cde259c3a",
+    "c:2cd3f4f9c62470f8e0c728f8a10c8ad4",
+    "g:https://status.gohighlevel.com/incident/910740#c45ece22d812572450631f2b7b978f41e35fcb47657e5ea9871e21f32ef9e709",
+    "c:44b0b39b8b98e0336e9ff7c7e572e11c",
+    "g:https://status.gohighlevel.com/incident/910713#7c932628c6695ce3d13129d186229eadfe072e582a37c823b8f24366fa98152c",
+    "c:fe9d07b67ff8926d9d4beaa9b2b816a5",
+    "g:https://status.gohighlevel.com/incident/910713#70fae266c106da2d1d1053f2eb3934ecd0b25ef183ba0bda2392364c97996505",
+    "c:e18dd012e27b0c5b4b4c14aeb22d7c28",
+    "g:https://status.gohighlevel.com/incident/910739#f09b48e62ffe744736685e425209b4f86d26137d2a98782f4ece62e7f719bf7f",
+    "c:9e9319a9b2ebcd12eebf17c5a02c5552",
+    "g:https://status.gohighlevel.com/incident/910739#c1ba5b9d26c2335ee54683e6b4219d17d05834712f943f746b40d448de89aeca",
+    "c:5a530404d0b320be3c6719f310e07afd",
+    "g:https://status.gohighlevel.com/incident/910738#7c6c80693cfe2aa0cbfe418c5504e075ca4a5c155049624187390d7f19d5c5bc",
+    "c:e43cfaea0fa2e443ac016f95ebff74ab",
+    "g:https://status.gohighlevel.com/incident/910738#965a3e91a8db87e6d859680f3d0250fe38178f7558618e4a660c3d01de5e9e75",
+    "c:014e52efeddf3e66a4f2c4fb177f4cf7",
+    "g:https://status.gohighlevel.com/incident/910737#b4bbe890ffab336895d8fc77c4cdd18478990efe9e6995fda6a7e8c63629d64b",
+    "c:5236d9bb3448e04945069bc933547841",
+    "g:https://status.gohighlevel.com/incident/910737#48d8d018704acdb8f798567cfbd1e21747cab105f6d8f505e5969eea9d0daf24",
+    "c:f035720775420d21787d44fbf97d0147",
+    "g:https://status.gohighlevel.com/incident/910708#b9645f82a8c4ce10928550f18348ce13e9acb7f1959493fd0187e89c5e5eb3c9",
+    "c:a456f9064ce47e929f5df19009a1a3af",
+    "g:https://status.gohighlevel.com/incident/910708#91f2d23b3e2f82993677c185809b4a36748d0e556fba3eb57ef85b50c736cf3d",
+    "c:b0a4e3ce61b9b016fab59495660a6c23",
+    "g:https://status.gohighlevel.com/incident/910736#436b1ce166807be63fc14a66ba433c67304dd78756a76f841836f1b27c4e783a",
+    "c:434a910f19f0de825cc45ef0fe57c876",
+    "g:https://status.gohighlevel.com/incident/910736#6004abc72846f1a125e258b84e4e3553b7771d89f2367e28386b0649cd8f3150",
+    "c:890a83f20170e5a614f73621c0cc47e3",
+    "g:https://status.gohighlevel.com/incident/910735#ee1e21798769bd277906f98e631b8ced722f50136f5a79f430da104fb3d3e909",
+    "c:ec6fc0f4f628d4f99f52d5c829c106ff",
+    "g:https://status.gohighlevel.com/incident/910735#7177e14a1996a9f772053b0a5519ff00ce9f1688d735b304fe8309bf46756e59",
+    "c:e7c46e56ab3002daef9490648ac259ef",
+    "g:https://status.gohighlevel.com/incident/910734#f34af7cd51d53bba1afa860c28110df7a7454636d2fffd5a86dfd4c1648d7d3b",
+    "c:670506b02ff6c619c14542b5dbedc26e",
+    "g:https://status.gohighlevel.com/incident/910734#7b551f87354f4c663d2583c395f83645c2b3cd53f63f800d5cef7e7d3c7a732c",
+    "c:e569e8a1433f869715db3105ce969442",
+    "g:https://status.gohighlevel.com/incident/910733#cf731b66f18a5907e1f89b3de88c8f9d49c634a07a82c1f5c9c48043c9bc882c",
+    "c:a804aa3ba214f11d971481c3ca93d18e",
+    "g:https://status.gohighlevel.com/incident/910733#5c78474c6c1ed2e996b88f39f824347277d9fa011b91a09c1693040f1d1d11b0",
+    "c:68d157cce1d9908167930561260c75d1",
+    "g:https://status.gohighlevel.com/incident/910732#48a9a0995cbea65bc93414d56b0e0c02585db73d760cd3965dc7978076b879f8",
+    "c:75b2e50231f7e887e426cbc4c310a90a",
+    "g:https://status.gohighlevel.com/incident/910732#359058b15b42d28df7abadd126fe7238fbe909bd12896233db15d132e5acdfef",
+    "c:b43461a21e547edfcbc46e1aaaf33186",
+    "g:https://status.gohighlevel.com/incident/910712#1fcfb47a084bd42131d99f5f50a3cf344df25a90e59061d00ab9baceb99ee696",
+    "c:57f4bdc9ee8b9833dd7d95c00e879db1",
+    "g:https://status.gohighlevel.com/incident/910712#387efcdc5c19056738f11c1709bfe35a05280af00132e6e278b6850bb5ca544d",
+    "c:981ddf88e2e8265030dda39e44a6e0be",
+    "g:https://status.gohighlevel.com/incident/910718#0974004ece91b8e7512a28fe6254d9faa19c59df7000734e895c71a97bd6aedf",
+    "c:17fee5ac705e3a45ba4dee6b20cbe812",
+    "g:https://status.gohighlevel.com/incident/910711#f5d8e1fd3637231282b51b19bbdf9a487640379fc6b7945b442be24f7a774c99",
+    "c:3a4486bd855ed33540dca215876ba01a",
+    "g:https://status.gohighlevel.com/incident/910718#eedd59e39db89a9645be9eca160cbfbf124a581df463f6e92c5191e01f0c845b",
+    "c:0927cd219c719af59e83ab6547d61e06",
+    "g:https://status.gohighlevel.com/incident/910711#d1e4bf50dc5f031e6e3634a78bf73858b2bd28c69e02a696e64fdfc1d7078801",
+    "c:eb23bb8e66f5e6dabdfcedc13562c7df",
+    "g:https://status.gohighlevel.com/incident/901739#d16c1b691a30587f5ad77b9744fac5545a14af3437c3da7667aa8c05663084e0",
+    "c:1e6b085892d8911143a48bf7ecdff988",
+    "g:https://status.gohighlevel.com/incident/901739#44036b3adbf53f69e7ab05e297da3d1ba528fff3af2c1cc9d9ee5b5d18539e19",
+    "c:7a1bf81843cc03390e26981b774ffc4c",
+    "g:https://status.gohighlevel.com/incident/901740#7cc1ab7b3a2d4668080cc3950d313a29861c948cb960f09585bc6d3dbd0996ad",
+    "c:7ad4da7934004b992e3f5165c39fc758",
+    "g:https://status.gohighlevel.com/incident/901740#264afdb0324db66a95679ca4e554b75f7df86741934744895314084fb9c4526c",
+    "c:3bb015f94d527b6a107ca95857302026",
+    "g:https://status.gohighlevel.com/incident/901741#40dcf837b69d96e515fcb5b6cadabde7979027e649b5979277ed77d5bfc12d1d",
+    "c:6db59c4c7f27a6c54de47a59813bfbdf",
+    "g:https://status.gohighlevel.com/incident/901741#2114a19547804183dcf7fa042c81b82e94ce5b48131e3a68756127856b123597",
+    "c:a854fb2f414dfc9214900d66e80ea853",
+    "g:https://status.gohighlevel.com/incident/910710#4d7ddecb1fa55f12589fb44b76a05701ee69b77aa5a6a4daa234b8f8ccef9bef",
+    "c:6c7b3921202fb88150bc2bbee63b15a4",
+    "g:https://status.gohighlevel.com/incident/910710#d4594f8b117a7026cefa9ed4aea1d50597b1256c36e853c109d2ea635005921e",
+    "c:7a8eb65fe9eea6a21d8de719f173da6b",
+    "g:https://status.gohighlevel.com/incident/910709#b4dfc22bc12dcbc02f0be392b42e35e705f2211db4267e8c3362bbff35c49f04",
+    "c:d382b6967ed97cd00f8f6692dcecb000",
+    "g:https://status.gohighlevel.com/incident/910709#b26d3f9e6540cc8ca4c2256397fc139fef6b3a5eca5dbf0fac6a91892eb2497b",
+    "c:c1847ceadc981182d81df925a1c86ac4",
+    "g:https://status.gohighlevel.com/incident/901742#883a9bf988d9db38403094357790ae8093e648dd6837277fb178662693a46287",
+    "c:9c4209318c123aa32829f4cd24f20e4c",
+    "g:https://status.gohighlevel.com/incident/901732#dbcbe281723759fe2ae87089e34f1381bd36c36abd8be6e73a1199a2b5ec5947",
+    "c:0514f5d687c781aba59959bb131d19e8",
+    "g:https://status.gohighlevel.com/incident/901742#c23936c837c326bccdf5f6844d80f625992c9736b85482351d7a0fec2d8ec4ae",
+    "c:8ece41d6e9f9c4b7c176cd25b0586000",
+    "g:https://status.gohighlevel.com/incident/901732#925bc69a29c810b91e346d8d15600359f54165137d4533b30a12ccfb743dc42e",
+    "c:bd1419e847cebe1f5a2764b493ab80c2",
+    "g:https://status.gohighlevel.com/incident/901742#e207b8e095ce3254a9acd71287e27aafaa26ffc5209fb9bd7e698a3b0530b271",
+    "c:8ece41d6e9f9c4b7c176cd25b0586000",
+    "g:https://status.gohighlevel.com/incident/901732#cfb185ae6ca90ae02022704fd242bc822bd043207607088b6c01c11e57123f1a",
+    "c:bd1419e847cebe1f5a2764b493ab80c2",
+    "g:https://status.gohighlevel.com/incident/910731#da6d6df040def428986cb8c8bc5c02d919cac2b08f71a1b9b3b6ef364ffb17ac",
+    "c:ab4058ddcdbd364fb2fb0cdaf4d4ced3",
+    "g:https://status.gohighlevel.com/incident/910731#08db16ddd52b6729b65a99ec6390ad6761e1aa5e82f959b57e9af1649511b21c",
+    "c:704d60be36c0c8955836d8ac691c62f7",
+    "g:https://status.gohighlevel.com/incident/901743#244dc0c9c502000fc9845b41e2388f945c46cc10eff88547b6f403fc9e6e0b48",
+    "c:fd52be11f81ce850417d143bf7a0b9fe",
+    "g:https://status.gohighlevel.com/incident/901743#e48d2680ef243d2dda09d8d9a66d900148e215f2255d0f97cf476d86f5970be2",
+    "c:f679acffa9ca0b1e51e8abda461edece",
+    "g:https://status.gohighlevel.com/incident/901744#b1cf49d1cdf6b38d49c24b75120ac56b81b8164d442a00c3dfafb48bc277ae37",
+    "c:7fe1b43994e5b7b6c05d45f2ef29d071",
+    "g:https://status.gohighlevel.com/incident/901744#672114ebefd832afc2d0fbfa1a550a846549d7998d3ed4631f13cf6ad35f5f6d",
+    "c:290603fdbfddab36fd9028b320f93a3d",
+    "g:https://status.gohighlevel.com/incident/901745#c4c7a3faf23e6567057f232d44904da7dbd3e84a57992057c9e6372f7990e593",
+    "c:3a9f80f436ab8f67b8d1d04dc72b3a40",
+    "g:https://status.gohighlevel.com/incident/901745#fccb78440b6900cf0d3f2e6dda6c603058a58640c86151b0401db03c239d54ab",
+    "c:e25dfad4f4ef31b84219f39c7c30ac7a",
+    "g:https://status.gohighlevel.com/incident/901746#c101c2b43647a9ec264728319fc2eeb82afbc8351f1fdfbdb111665c20078a47",
+    "c:5eba415334b4fe382112050213b167e0",
+    "g:https://status.gohighlevel.com/incident/901746#d1d2c39ce9c98508bf11fe6b8f319e9d6700a45f93ca3dfd5f4d05e7071e2585",
+    "c:685f80da4a5fe8bcf9229438ea83cf60",
+    "g:https://status.gohighlevel.com/incident/901747#5000bd0fd4c1beb921c569b5c68d8873919907a00648a1d40b23547c85308183",
+    "c:e43f3cc7876d6824c8a766512a9ae16f",
+    "g:https://status.gohighlevel.com/incident/901747#2e0187df8cd7bd36e06f185bd6a6a9b3527b46949a94dd5c522902848378db65",
+    "c:8799b79e978dcc92ba315e2bbc4ded7a",
+    "g:https://status.gohighlevel.com/incident/901748#13169437aff2c42a9566e3f25b90b00cfddbcd49c62fb9f76932b31f0a9e40ef",
+    "c:03b6bf335c1e6e02100818c74b17e3bc",
+    "g:https://status.gohighlevel.com/incident/901748#11b8792533cab24b22614e1db75736cbe9d00f7d46d2adb6720a8d4f389e9398",
+    "c:0d624f152263d3410322e22584f7599f",
+    "g:https://status.gohighlevel.com/incident/901749#96ec3636f32122216f0bc8a847c5c8fadf1f453194ea075d4f54f72c64d2582d",
+    "c:04d04028dca843e9651b1662cca9366d",
+    "g:https://status.gohighlevel.com/incident/901749#4f4d3e5952dc522d13ff7f82441eff43b38215a074d099aefee234d06cd1c422",
+    "c:a14d975d8d5417d43a5491cfb4ddc424",
+    "g:https://status.gohighlevel.com/incident/901749#28a384ba30b1c8217d991265c169f5002071cafd483da93c11d387e17adf0aca",
+    "c:6a2deb59c6cc9d33472fe977b6f405ee",
+    "g:https://status.gohighlevel.com/incident/901750#4a6ffcfc09cce28d13e7d104479af8a8d9093d418bf4ead6eafda277a8bb0123",
+    "c:dac3313289eef3ea6990c9fcb09e6abf",
+    "g:https://status.gohighlevel.com/incident/901750#2a6c8649c031a5cc90fdfc944f24d6034acd4f9dc101477db47c8f90acbfc6dc",
+    "c:ee1f2591fc2408a723d93f285b8b54bf",
+    "g:https://status.gohighlevel.com/incident/901751#ad15f3f28ec54dd97e54f61d7395978df5045d738110d04843f67baf26b86773",
+    "c:431451f22859d7ba5cccf6d6c7e9199f",
+    "g:https://status.gohighlevel.com/incident/901751#3a2f34b43ade93ac5b1a976a864a10c57c855246735312c1802ad1ba124c9df0",
+    "c:17effa059a50b9962928a2fd0e7386f4",
+    "g:https://status.gohighlevel.com/incident/901752#72c2cd84884f13f1947c67a90f057ef2794e90a57a00e329316acf47ac50ed42",
+    "c:7ebe33ccb1ad883bbcc3abb27f22e101",
+    "g:https://status.gohighlevel.com/incident/901752#fb03a1899764a72fe85b1cb28a2206ed1271e49ed3097b9900cec80c211f7712",
+    "c:e5362ee501f8293dd465c36a54aa8cba",
+    "g:https://status.gohighlevel.com/incident/901753#9c901c85bbef8fe3e05d7c538c0d94e6c260a151d55e2496b95bffd22147b873",
+    "c:d532e708431012c36796774d78299bc0",
+    "g:https://status.gohighlevel.com/incident/901753#2cd492c118756a0384e6da4fc778a0917cc84930f07d4e907251822f154dd55f",
+    "c:50aa78e16fd9182cf3f11cb6356e56e1",
+    "g:https://status.gohighlevel.com/incident/901754#55aba7c6828bbd9983415351797fe35aabe587931856488685deca6541b1d8b0",
+    "c:8c99c6dae64afe8ceca9f81ad0213b7e",
+    "g:https://status.gohighlevel.com/incident/901754#242f0bfbab53a735c55783bc718f66b0a0dd11687b099bae1e9767242c070aa6",
+    "c:b6bebaefb83706c69c5f46ab811894ef",
+    "g:https://status.gohighlevel.com/incident/901755#ff691302ed2028c4071891eb604d543223d0cb64a227a822a1390c3bb2d3d377",
+    "c:1820ea5ccfd3d7ac0b5dfd679dd2c709",
+    "g:https://status.gohighlevel.com/incident/901755#e46cdfd35ff750b5b21fe1117b00b5becc7f80923f3d9637fd0f27e1e1590355",
+    "c:c41ad34b6002f2d7b55fce8aa03734b7",
+    "g:https://status.gohighlevel.com/incident/901756#7720583ca147cf2b6d9fc138300f707763280318cddb50f620f21ce287653e20",
+    "c:9fdab5b8ceb5c17bf7072e07f36ed9ac",
+    "g:https://status.gohighlevel.com/incident/901756#0e4f1c65a3f799783bd78cfc90c9c6425113067e8f01c4540ff5e227f04e2ac3",
+    "c:e98a9e9c3e1270c4f8d61209811a008b",
+    "g:https://status.gohighlevel.com/incident/901757#91c71e0a0c60b371873163b0f78fe9f576372ba12403fc3e70b083d65c0a44b8",
+    "c:4d4357f5e4b4ad5d00f02731e6c71d61",
+    "g:https://status.gohighlevel.com/incident/901757#83c96c846023b2232ff333a9b5d32826afaca6c190079bf142309a6050b14568",
+    "c:5a71692c5d40482201b3d0b5a117a940",
+    "g:https://status.gohighlevel.com/incident/901758#6d62e81648685e1414eebbc6f277f7aa8206073e9156acd1f92e0367b5df4ae7",
+    "c:5903d0854a342c420f2ea74fb5a28808",
+    "g:https://status.gohighlevel.com/incident/901758#86df296699056c0b67200f60f7de84ad9639208a3ba5a502e069ee1d5e2c39fc",
+    "c:b2ca24969208993e48d9e559dc1b987b",
+    "g:https://status.gohighlevel.com/incident/901759#c2fc44391ee8ed85a97e1471d80428e4522b092537388fc1090cdac2c0810fa3",
+    "c:55eb3d86fafceb8228ab53db9ab7e333",
+    "g:https://status.gohighlevel.com/incident/901759#c684446e27cc5d493f15cf1d9c83ece3d143cc01c2ba4013a92db72d2ba45e5d",
+    "c:55eb3d86fafceb8228ab53db9ab7e333",
+    "g:https://status.gohighlevel.com/incident/901759#3f2a1c6ebb5d58591917e7683cb93e14843f6e194870786575de25b0c08d2188",
+    "c:4c648c0f50fe0356fd9d2222d10f9a5b",
+    "g:https://status.gohighlevel.com/incident/901760#bc864b72b43d84a16fcb1836e7b740e6a8f158aeff29024ad3d876a9c817b9dd",
+    "c:aa7557538ffbd287b9e09401b9d0fe86",
+    "g:https://status.gohighlevel.com/incident/901760#012126c04cfdfcf512b383f0561b87696040df1096e077c303e9fa33b7be0c85",
+    "c:2b4d38e755e6936be57f77d0938e252a",
+    "g:https://status.gohighlevel.com/incident/901761#1d0d8b5c818ec04c2dc33b0cc3ccbfd1457db10de814b9f7eb0de4a492f4de6a",
+    "c:b50663c6d2ea70c2dfbb8b54dd54fb39",
+    "g:https://status.gohighlevel.com/incident/901761#d4c7d22bc59cddcbd06fa781f7629af2527fab7e053933fd907a612c29f1cff2",
+    "c:edf23a7d618805c8e2c3269f0ab51308",
+    "g:https://status.gohighlevel.com/incident/901762#b707d63810079a616ac38376f651abbcf60a63db4a279c3e3566e9ec7fb1e5e2",
+    "c:41e7d8a7ea04a94fa2cd102e25f67806",
+    "g:https://status.gohighlevel.com/incident/901762#5be970d260b23b9e26a62892bc4f2782718551b4309950a5223b71c38cc2389f",
+    "c:70a4fa990f542649576a0bd36a1b5c4d",
+    "g:https://status.gohighlevel.com/incident/901765#d41d387afc7a2f031459f586c567c6d4f6778a8d5077c626404bf3ea2330238c",
+    "c:79976a4d0f239b7907edd47c295d56fc",
+    "g:https://status.gohighlevel.com/incident/901765#d7d80083c53a604e72d6813e105ea4bf496192b9d8542c50b494fe6966367156",
+    "c:353fed80c46e9e87d140aeb6808c5d70",
+    "g:https://status.gohighlevel.com/incident/901764#de123a098eb4c7bbbc344ea0e2870a69c2d5680595d94fd37d2a317a67c3539e",
+    "c:aa15f4df77778e1dbf4d3ebeb70c3472",
+    "g:https://status.gohighlevel.com/incident/901764#aa174e90323f6f1133177b7beea87fbc0ec31194a47dff185294d72f9a2d24ca",
+    "c:77357b2cf1a3c2c2a7ba03e1c71a230c",
+    "g:https://status.gohighlevel.com/incident/901766#bf36c2646295b6c0dd4abd1818902820579b576272d06ca79d4926c52be8f036",
+    "c:5699c0b79688ac45d8b0fa9495b6d0d1",
+    "g:https://status.gohighlevel.com/incident/901766#d83599d9337a6f1b6d42b829f75c7eb6d37c74152f8377a66e8afdc51900b99a",
+    "c:c7c0e5e663d80ede400687c6101b06b2",
+    "g:https://status.gohighlevel.com/incident/901767#c47d5adc5abebb06e481558adcffa5415c4cde80591d0a5d78f062aba0db6f9b",
+    "c:b426007aeaf03a811750f716eca568d5",
+    "g:https://status.gohighlevel.com/incident/901767#abec0447fd20f0b566e49a0a4e0e16031bef3a278b2d7ba2e91e02b2dd0cc1d4",
+    "c:b426007aeaf03a811750f716eca568d5",
+    "g:https://status.gohighlevel.com/incident/901767#539d8bd52f44ebeb45e656015794e6128b15844977efe6a3ca1d46721c1f5aa4",
+    "c:0d532e922dbccf3e87cdee211b214998",
+    "g:https://status.gohighlevel.com/incident/901767#a3f5596c241f62858383e6a60d662ef29449f367c43d9d50e21ad5bae8f8b0fc",
+    "c:fd2011000b18992a6a228eafcc24ebaf",
+    "g:https://status.gohighlevel.com/incident/901768#285ea56cc79485ad26fa01293fd4b7d65aafe0f78f31c2648ce9bb1307c3f561",
+    "c:0e91bfd970cdaab9c9ae9fd1e7ddd3ed",
+    "g:https://status.gohighlevel.com/incident/901768#07bcb28ffdc7348447f8689955cffcdffb024d306eb213e8213107f9062e732b",
+    "c:e2d7c801b8c4ff643902b843fec76ae3",
+    "g:https://status.gohighlevel.com/incident/901769#fc6bf2ef9c1482a4c2fa05f986de3aa2745b1dedc92d271d5b247083f99518d6",
+    "c:ff7bfaa6f3b3951e79a8952df5eb9870",
+    "g:https://status.gohighlevel.com/incident/901769#2ac0f14c1f0d09317a0549d94c8c37a4fe8a07c34793a799e513db166cb71ad5",
+    "c:ff7bfaa6f3b3951e79a8952df5eb9870",
+    "g:https://status.gohighlevel.com/incident/901769#6ea2cacf0d68e9d8c7c60d71d2a8ee340898ac7629f7f3fa2b575b6b88110454",
+    "c:86afe39b4d25c2336c0c1b5261d4c80b",
+    "g:https://status.gohighlevel.com/incident/901770#9157043a651dfd8262ca8cec06eba70e02f16a500b95585ad030f43249522045",
+    "c:2bff7723b38d9cd996ff103f874881bf",
+    "g:https://status.gohighlevel.com/incident/901770#8371884f3c9c5710ddf3f550479b071e68b9cba4913593e8c434a3e60ff3781e",
+    "c:2bff7723b38d9cd996ff103f874881bf",
+    "g:https://status.gohighlevel.com/incident/901770#7552a10920a05a152f0c14fc5acf2fc7512a6ce72b7948237dfcf61df33b81df",
+    "c:983521b345f102b250b28a1e6bea5b60",
+    "g:https://status.gohighlevel.com/incident/901772#b7b89e0316553695498f18f32c7aef3230a2355337b17db2c99fadced8ea6483",
+    "c:a193e6ba76affd49a90e2d3c5af9af3e",
+    "g:https://status.gohighlevel.com/incident/901771#42af4efcec501f50c588912a9928839d331fdba7b789fbbaf097f08febf11165",
+    "c:779dddbdbe7e230817305fd817cbdd3e",
+    "g:https://status.gohighlevel.com/incident/901771#6c86b9bb5b3888809e88370d0e6d1cb067c6ecb3c63ac7cbfbe270464da8ec4f",
+    "c:6df5b221bc30b38d6bd47323b371ca15",
+    "g:https://status.gohighlevel.com/incident/901772#64e02f23c28c0b97f86df7b1e719318c7ed9d51323b67f973d8ad10c2ad10da9",
+    "c:72bfe353e56e2226505017dc3093b588",
+    "g:https://status.gohighlevel.com/incident/901773#973e26d675b4c2b3e5374c1f7ce47d600d034880824fc8a18f8ebeb6beb5b968",
+    "c:a994ff87ce56dce66dc3301c84be18d7",
+    "g:https://status.gohighlevel.com/incident/901773#c835479e6466b7f18f220f3149f5cf0dcbcac3354409090bf0266c05f3ec3c51",
+    "c:de890d3d1927687e1ab6ebd31f23e113",
+    "g:https://status.gohighlevel.com/incident/901774#7d57197f9671b760692c10bdec09b0bbb18727baa504eb10293e0a2a57aba967",
+    "c:d4e78b0f6c9ef68fcd394dd737af33c1",
+    "g:https://status.gohighlevel.com/incident/901775#53b4b710b3c0dc4c99704cb4e5b052f31e08aab65ff85dce088a5b3b6e251fd4",
+    "c:0494f8d24a8f7ab8f4f0bc3b955005b7",
+    "g:https://status.gohighlevel.com/incident/901774#94a992f448b6551553ad32346f42475011d3e185849fce9a33b526c37c189d52",
+    "c:99c8d16fe63df7f02889249641f2212b",
+    "g:https://status.gohighlevel.com/incident/901775#8228a3f0b5a2e23d7dcae9360086d622312305aa8a37295ebdaac347bb090b68",
+    "c:da390977e5ba4c463479329f350af2ed",
+    "g:https://status.gohighlevel.com/incident/901775#87badf6e6ec0188bb2bc38c836e547244a094b0dcb40eaa0f1346bd3c58ee111",
+    "c:1a6df92de55318891ae87d3f30f25f30",
+    "g:https://status.gohighlevel.com/incident/901774#a28a8a2362b64413307ea670f451c9dc50b8c96ff251559cb03ff64453d5aa7a",
+    "c:85aafc1d64bae0a8bfbd5f53448e328c",
+    "g:https://status.gohighlevel.com/incident/901776#aeec765ab5b7e2a3f3d4a4d7323d45aa3a5ba05c09d56be779ded1ffcd9d8fcb",
+    "c:4395d119a99b337c11d33660a708d36b",
+    "g:https://status.gohighlevel.com/incident/901776#fa5eb2b3ea2cf3f6d8c7b878dd1b6b1af9af65692a02dd2c1bfb62671319c4d7",
+    "c:9910837aff4596ea892cf682da8c4a75",
+    "g:https://status.gohighlevel.com/incident/901777#5caa19da53474e24d8f09ec5769b9fecbb697f3769f0a0d128d8c01075e072d1",
+    "c:f4e517d61eca90a29fbe275688034182",
+    "g:https://status.gohighlevel.com/incident/901777#6cb4de96914a13a46d70b28a9971917780e16197a72ace69b281d7903dbad41f",
+    "c:d58d70883e8dc9d9b4a1d86d569ca518",
+    "g:https://status.gohighlevel.com/incident/901778#7138cefe44726bce3eec59847dd869deab61530c4cc6f9290822aa719fbb73be",
+    "c:22dd852c04c0a53a163f787144e3df8c",
+    "g:https://status.gohighlevel.com/incident/901778#f6a0e690209dfc0a0aad83ee25a6172cd9f8fc89398526e094b16db1f1d4342f",
+    "c:f2d434f424ebe12d8f06450060750b53",
+    "g:https://status.gohighlevel.com/incident/901779#7811308bdeb4a4f0af7fa4ecc723e9957d85464bb84218362661cf54c59b576e",
+    "c:49f95ae099ac2b4fa52a6856353c5d43",
+    "g:https://status.gohighlevel.com/incident/901779#e50b23460a6aec9d010d8bb652904ded0bab5c7f21073aad767dd50ca917e851",
+    "c:2a68348c25d0b933f5090d21df86dd02",
+    "g:https://status.gohighlevel.com/incident/901780#f5a9c866bfc5e93ecdcf908069709cc4786413085cee83158de61b2fbaedbc7a",
+    "c:210af9ca07b3e93d6e502ea7551068ad",
+    "g:https://status.gohighlevel.com/incident/901780#6e89ed1e50901bcc32f0044e0092583ebf995098066da176a29741851b11e51f",
+    "c:b7d4ab55c20229b6f1bf7d7165131d20",
+    "g:https://status.gohighlevel.com/incident/901781#6ea29c6dd8d4bc55ab0364ee75e0862efdad1be99df79feb5c9d74252bad2f37",
+    "c:a00b2809023c7b7ef26dcce795ee190f",
+    "g:https://status.gohighlevel.com/incident/901781#b3cdeb351f9f57702b78670874c25d39473cb6286d5de19cea3faec898ad5928",
+    "c:6253985c8dac8a499bf49ce870d6ef2a",
+    "g:https://status.gohighlevel.com/incident/901781#e6e0f8c4f4fd9cc18095b68da80711e0bab9e487c9c0513dfcfe48eb388357a8",
+    "c:093a6eb151820396bfdc2fd1719f3871",
+    "g:https://status.gohighlevel.com/incident/901782#c49a96e9be4f09aab71b0437bf50276c87c20b2eb45569a3c2808eb4b70d89b2",
+    "c:5f5fe48e61b088f3b302001a5d24883b",
+    "g:https://status.gohighlevel.com/incident/901782#4a36baa1749a9d6a860337fb2d61b9a49c1344d62a74302ccf8d2ff3b30b2cc7",
+    "c:06f05b0288b96568f1df0d950c18873a",
+    "g:https://status.gohighlevel.com/incident/901783#2fdbabf755253835305dcebf2305aaa0144aeccd46bc3dfd66f522bf33fa518e",
+    "c:48e412593fbc43ee95f902b040a2ae89",
+    "g:https://status.gohighlevel.com/incident/901783#d6f318f0293c0454ddd41fa150c01e51092b8e65d5fc73685dafbf91b91205c2",
+    "c:27bc677f380c1f8b546df0199854b254",
+    "g:https://status.gohighlevel.com/incident/901784#70c3a5a542aa8d7aafb1a1b33c50363b6c539677a405115bd7197e8029586e87",
+    "c:a2223a726a159dd612b92051a0d87481",
+    "g:https://status.gohighlevel.com/incident/901784#65c7ab446fa73d6a7ed0db9090abfc490abb35e10c0f98647b84013e5924aa06",
+    "c:175e319ae0c0e888d225bade71640ffa",
+    "g:https://status.gohighlevel.com/incident/901786#78219087a55842bfdb3ed528309a4cc524444bf9ab3f67dc91c12ed83b45db75",
+    "c:740d885336783d591d06ff55c7930821",
+    "g:https://status.gohighlevel.com/incident/901786#12472ddb3c9c212d215dbe877fbfe85f590d762cbd4fccf69c989caa66ea84e9",
+    "c:52d08a4e8efc2e5222579508e8ccff95",
+    "g:https://status.gohighlevel.com/incident/901787#cf2deb26671b38046c34dcf2d1e13bf8749d276107e95c986468c97008194f75",
+    "c:3ffc4240b37e403d0f2ee885bd8bb03e",
+    "g:https://status.gohighlevel.com/incident/901787#bef81f371c91751499705af8c6bb08729c0c5aecfa5eb607123d54b3026ef1d6",
+    "c:87789de9e455c512a9bf62a22b4c5402",
+    "g:https://status.gohighlevel.com/incident/901788#997e1f78b16c8bf3dfaa35ce595ec5c1ac1884f2f06d987d21adc78f788ca331",
+    "c:3b088b30b4fe4f7668eea859f0d8fbd9",
+    "g:https://status.gohighlevel.com/incident/901788#5da03ad6d41cc128240dc7be1491b0582470d7bbab845d28ef86a51b8ef1fe7a",
+    "c:b4d2bea531ece8c404d74dcd7ea2042c"
+  ],
+  "version": 1
+}
