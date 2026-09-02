@@ -1,0 +1,87 @@
+name: GHL Status Watcher
+
+on:
+  schedule:
+    # Once an hour, at :23 past. Deliberately NOT on the hour - "0 * * * *" is
+    # the single most contended slot on GitHub's shared scheduler and gets
+    # delayed most often. Change to "23,53 * * * *" for every 30 minutes.
+    - cron: "23 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to run"
+        required: true
+        default: "normal"
+        type: choice
+        options:
+          - normal
+          - test-slack
+          - demo
+          - dry-run
+          - seed
+
+permissions:
+  contents: write
+
+# Never let two runs overlap - they would race on state.json.
+concurrency:
+  group: ghl-status-watcher
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # No setup-python step: Ubuntu runners already ship Python 3.12, and the
+      # watcher has zero dependencies. One less step, one less failure mode,
+      # and it shaves ~10 seconds off every run.
+      - name: Check out the repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Run the watcher
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          STATUS_PAGE_URL: https://status.gohighlevel.com
+          STATE_FILE: state.json
+          LOOKBACK_HOURS: "72"
+          # Raised from 6 to 10: an hour-wide window can legitimately contain
+          # several updates to a fast-moving incident.
+          MAX_POSTS_PER_RUN: "10"
+          # 3 consecutive failures = ~3 hours blind before the channel is told.
+          FAILURE_ALERT_AFTER: "3"
+        run: |
+          case "${{ github.event.inputs.mode }}" in
+            test-slack) python3 ghl_watcher.py --test-slack ;;
+            demo)       python3 ghl_watcher.py --demo ;;
+            dry-run)    python3 ghl_watcher.py --dry-run ;;
+            seed)       python3 ghl_watcher.py --seed ;;
+            *)          python3 ghl_watcher.py ;;
+          esac
+
+      - name: Save what has already been posted
+        run: |
+          if [ -z "$(git status --porcelain state.json)" ]; then
+            echo "No state change - nothing to commit."
+            exit 0
+          fi
+          git config user.name  "ghl-status-watcher"
+          git config user.email "actions@github.com"
+          git add state.json
+          git commit -m "chore: update watcher state [skip ci]"
+          # Another run may have pushed while we worked; rebase and retry.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "State saved."
+              exit 0
+            fi
+            echo "Push rejected, rebasing (attempt $attempt)…"
+            git pull --rebase --autostash
+            sleep 3
+          done
+          echo "Could not save state after 3 attempts." >&2
+          exit 1
