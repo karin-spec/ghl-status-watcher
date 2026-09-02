@@ -33,6 +33,10 @@
       "contacts and opportunities are now working as expected we are continuing to monitor the system we ll provide another update as soon as we have further information",
       "we re investigating an issue affecting calendar opportunities contacts and several related features our team is actively investigating the issue and working to restore normal functionality we ll provide another update as soon as we have more information"
     ],
+    "1046511": [
+      "we are currently investigating an issue affecting application asset loading in production our team is actively assessing the scope of impact and reviewing the production configuration we will provide another update as soon as more information is available",
+      "the issue has been resolved by updating the production configuration to restore the expected application behavior the change has been verified and the application is now functioning normally"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -993,7 +997,11 @@
     "g:https://status.gohighlevel.com/incident/901788#997e1f78b16c8bf3dfaa35ce595ec5c1ac1884f2f06d987d21adc78f788ca331",
     "c:3b088b30b4fe4f7668eea859f0d8fbd9",
     "g:https://status.gohighlevel.com/incident/901788#5da03ad6d41cc128240dc7be1491b0582470d7bbab845d28ef86a51b8ef1fe7a",
-    "c:b4d2bea531ece8c404d74dcd7ea2042c"
+    "c:b4d2bea531ece8c404d74dcd7ea2042c",
+    "g:https://status.gohighlevel.com/incident/1046511#a9dd5382cbd3f46d143a7290ed63e65026c53d9b0cc6215d0dff1173c0f6dd63",
+    "c:9a9707d078ac55dcce27366077df4493",
+    "g:https://status.gohighlevel.com/incident/1046511#7e60ca4a524828cb644a2436ba78e6bc3fdbb9bffb58bf88269ea66edec69705",
+    "c:7325abbe63c6efa0b18c7fe5325b331c"
   ],
   "version": 1
 }
