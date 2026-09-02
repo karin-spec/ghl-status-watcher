@@ -38,7 +38,8 @@
       "the issue has been resolved by updating the production configuration to restore the expected application behavior the change has been verified and the application is now functioning normally"
     ],
     "1046708": [
-      "we identified an issue that affected appointment data visibility across certain views and reports between 12 30 pm and 2 30 pm ist the issue has been resolved and we are actively backfilling the affected data we ll continue to provide updates as progress continues"
+      "we identified an issue that affected appointment data visibility across certain views and reports between 12 30 pm and 2 30 pm ist the issue has been resolved and we are actively backfilling the affected data we ll continue to provide updates as progress continues",
+      "the issue has been resolved and affected services are now operating normally team has implemented a fix and verified that service has been restored we will continue to monitor the system to ensure ongoing stability"
     ],
     "901732": [
       "we have resolved the issue",
@@ -1006,7 +1007,9 @@
     "g:https://status.gohighlevel.com/incident/1046511#7e60ca4a524828cb644a2436ba78e6bc3fdbb9bffb58bf88269ea66edec69705",
     "c:7325abbe63c6efa0b18c7fe5325b331c",
     "g:https://status.gohighlevel.com/incident/1046708#d04865e61051e7a68e18563630ef4ba802341e990c9fd2cf703b95a7895af71a",
-    "c:9517fe30122c929e087f968beda239a2"
+    "c:9517fe30122c929e087f968beda239a2",
+    "g:https://status.gohighlevel.com/incident/1046708#28462d749d7db9b54b1d9e7a63b63d4409f8ec1c1e111358e505876e276499db",
+    "c:46c0236385e4038dee55a05f7fde5802"
   ],
   "version": 1
 }
