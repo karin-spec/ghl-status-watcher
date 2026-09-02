@@ -1,0 +1,9 @@
+# Never commit credentials
+.env
+*.env
+!.env.example
+
+# Local scratch
+__pycache__/
+*.pyc
+state.json.tmp
