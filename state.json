@@ -500,7 +500,7 @@
   "consecutive_failures": 0,
   "failure_alerted": false,
   "initialized": true,
-  "last_success": "2026-09-02",
+  "last_success": "2026-09-03",
   "seen": [
     "g:https://status.gohighlevel.com/incident/1032885#bf6bbbd1502092ea20ec3e31629c11191af949ce14178f54ec93e62edb10025e",
     "c:55c0a4cc192f1a5f778787bf44b03b46",
