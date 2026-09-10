@@ -42,7 +42,8 @@
       "the issue has been resolved and affected services are now operating normally team has implemented a fix and verified that service has been restored we will continue to monitor the system to ensure ongoing stability"
     ],
     "1058718": [
-      "we are running down issues in data sync across contacts and smartlists our team is actively working to identify the root cause and restore normal synchronization as quickly as possible we will provide another update as soon as more information is available"
+      "we are running down issues in data sync across contacts and smartlists our team is actively working to identify the root cause and restore normal synchronization as quickly as possible we will provide another update as soon as more information is available",
+      "the issue affecting data synchronization across contacts and smartlists has been resolved our team identified the root cause and restored normal synchronization all delayed updates have been processed and no data was lost during the incident"
     ],
     "901732": [
       "we have resolved the issue",
@@ -1014,7 +1015,9 @@
     "g:https://status.gohighlevel.com/incident/1046708#28462d749d7db9b54b1d9e7a63b63d4409f8ec1c1e111358e505876e276499db",
     "c:46c0236385e4038dee55a05f7fde5802",
     "g:https://status.gohighlevel.com/incident/1058718#094d69d23986813ba11acd10922bc1a08cb5365240b43437d14b47b7e92ab63b",
-    "c:15ae1395969b5e2e991f489a304255df"
+    "c:15ae1395969b5e2e991f489a304255df",
+    "g:https://status.gohighlevel.com/incident/1058718#92529224a96d818b8a6b7cc3f862618de42ff659addc8b4a8c29bb018b616522",
+    "c:c5b76c3b57bc44dda626f91b9a4c3f2e"
   ],
   "version": 1
 }
