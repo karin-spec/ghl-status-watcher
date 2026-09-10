@@ -41,6 +41,9 @@
       "we identified an issue that affected appointment data visibility across certain views and reports between 12 30 pm and 2 30 pm ist the issue has been resolved and we are actively backfilling the affected data we ll continue to provide updates as progress continues",
       "the issue has been resolved and affected services are now operating normally team has implemented a fix and verified that service has been restored we will continue to monitor the system to ensure ongoing stability"
     ],
+    "1058718": [
+      "we are running down issues in data sync across contacts and smartlists our team is actively working to identify the root cause and restore normal synchronization as quickly as possible we will provide another update as soon as more information is available"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1009,7 +1012,9 @@
     "g:https://status.gohighlevel.com/incident/1046708#d04865e61051e7a68e18563630ef4ba802341e990c9fd2cf703b95a7895af71a",
     "c:9517fe30122c929e087f968beda239a2",
     "g:https://status.gohighlevel.com/incident/1046708#28462d749d7db9b54b1d9e7a63b63d4409f8ec1c1e111358e505876e276499db",
-    "c:46c0236385e4038dee55a05f7fde5802"
+    "c:46c0236385e4038dee55a05f7fde5802",
+    "g:https://status.gohighlevel.com/incident/1058718#094d69d23986813ba11acd10922bc1a08cb5365240b43437d14b47b7e92ab63b",
+    "c:15ae1395969b5e2e991f489a304255df"
   ],
   "version": 1
 }
