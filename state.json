@@ -49,6 +49,9 @@
       "we re investigating an issue where the sidebar may collapse when switching from agency view to location view we ve identified the likely cause and are actively working on a fix we ll share another update as soon as more information is available",
       "the issue has been resolved and all services are operating normally we have confirmed that functionality has been restored and will continue to monitor the system to ensure stability"
     ],
+    "1060356": [
+      "one of our s2s model gemini 3 1 flash live preview is facing some downtime we re investigating it to restore the service with google"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1025,7 +1028,9 @@
     "g:https://status.gohighlevel.com/incident/1059533#8b055026b4b61b3bc3c2ed8954b5f360367d5447bb431c1ae9ad22a69cf74ba4",
     "c:492e2742373897928c0c0acb21894f05",
     "g:https://status.gohighlevel.com/incident/1059533#9afcbed666418ac8bd17dc3de59d1c31fdfbfb8e04c6d34b1f97d38449bc7db6",
-    "c:224e614d6c9933785dbc6447a1c7fcc6"
+    "c:224e614d6c9933785dbc6447a1c7fcc6",
+    "g:https://status.gohighlevel.com/incident/1060356#bd7a7a663048cdc47a44d36250306fb74bbbfaacf48a46130041a94627961dfd",
+    "c:79b9ba27e2cfcbc24edcf7dd10a878b8"
   ],
   "version": 1
 }
