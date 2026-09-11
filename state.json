@@ -45,6 +45,10 @@
       "we are running down issues in data sync across contacts and smartlists our team is actively working to identify the root cause and restore normal synchronization as quickly as possible we will provide another update as soon as more information is available",
       "the issue affecting data synchronization across contacts and smartlists has been resolved our team identified the root cause and restored normal synchronization all delayed updates have been processed and no data was lost during the incident"
     ],
+    "1059533": [
+      "we re investigating an issue where the sidebar may collapse when switching from agency view to location view we ve identified the likely cause and are actively working on a fix we ll share another update as soon as more information is available",
+      "the issue has been resolved and all services are operating normally we have confirmed that functionality has been restored and will continue to monitor the system to ensure stability"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1017,7 +1021,11 @@
     "g:https://status.gohighlevel.com/incident/1058718#094d69d23986813ba11acd10922bc1a08cb5365240b43437d14b47b7e92ab63b",
     "c:15ae1395969b5e2e991f489a304255df",
     "g:https://status.gohighlevel.com/incident/1058718#92529224a96d818b8a6b7cc3f862618de42ff659addc8b4a8c29bb018b616522",
-    "c:c5b76c3b57bc44dda626f91b9a4c3f2e"
+    "c:c5b76c3b57bc44dda626f91b9a4c3f2e",
+    "g:https://status.gohighlevel.com/incident/1059533#8b055026b4b61b3bc3c2ed8954b5f360367d5447bb431c1ae9ad22a69cf74ba4",
+    "c:492e2742373897928c0c0acb21894f05",
+    "g:https://status.gohighlevel.com/incident/1059533#9afcbed666418ac8bd17dc3de59d1c31fdfbfb8e04c6d34b1f97d38449bc7db6",
+    "c:224e614d6c9933785dbc6447a1c7fcc6"
   ],
   "version": 1
 }
