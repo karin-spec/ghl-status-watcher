@@ -52,6 +52,9 @@
     "1060356": [
       "one of our s2s model gemini 3 1 flash live preview is facing some downtime we re investigating it to restore the service with google"
     ],
+    "1070637": [
+      "team is currently look into it"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1030,7 +1033,9 @@
     "g:https://status.gohighlevel.com/incident/1059533#9afcbed666418ac8bd17dc3de59d1c31fdfbfb8e04c6d34b1f97d38449bc7db6",
     "c:224e614d6c9933785dbc6447a1c7fcc6",
     "g:https://status.gohighlevel.com/incident/1060356#bd7a7a663048cdc47a44d36250306fb74bbbfaacf48a46130041a94627961dfd",
-    "c:79b9ba27e2cfcbc24edcf7dd10a878b8"
+    "c:79b9ba27e2cfcbc24edcf7dd10a878b8",
+    "g:https://status.gohighlevel.com/incident/1070637#4b7dce0b300db762fe4e461f0cd76dff7344bd0e59fb5c00230bb78b21a5c9ff",
+    "c:da349a180bbe373cbebc4e852c8dfe9b"
   ],
   "version": 1
 }
