@@ -56,6 +56,9 @@
       "team is currently look into it",
       "we re back thanks for bearing with us the issue causing utm parameters for hidden fields not to populate on the contact record has now been resolved thanks again for your patience"
     ],
+    "1072099": [
+      "we are currently experiencing an issue with our third party threads integration impacting threads related functionality in social planner and other areas across the product"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1038,7 +1041,9 @@
     "g:https://status.gohighlevel.com/incident/1070637#4b7dce0b300db762fe4e461f0cd76dff7344bd0e59fb5c00230bb78b21a5c9ff",
     "c:da349a180bbe373cbebc4e852c8dfe9b",
     "g:https://status.gohighlevel.com/incident/1070637#4cb121a3cf8241d580f8e24b9e6c70880e6756c8b639662fd88422b89f6c7272",
-    "c:ca2cc35c380b04cd3922b7450d424a3b"
+    "c:ca2cc35c380b04cd3922b7450d424a3b",
+    "g:https://status.gohighlevel.com/incident/1072099#c4be3f874761c4ec329cae8811c77eae4e3d2b00d0d218c169e0c459edb8d7e6",
+    "c:2126cc1ab08c994198833861fcd8f3d5"
   ],
   "version": 1
 }
