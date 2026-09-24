@@ -60,6 +60,9 @@
       "we are currently experiencing an issue with our third party threads integration impacting threads related functionality in social planner and other areas across the product",
       "we re back thanks for bearing with us the issue causing third party threads integration impacting social planner has now been resolved thanks again for your patience"
     ],
+    "1073054": [
+      "we are currently investigating an issue affecting opportunity related actions the find create and update opportunity actions are currently impacted our team is working on a fix and we ll share another update as soon as we have more information"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1046,7 +1049,9 @@
     "g:https://status.gohighlevel.com/incident/1072099#c4be3f874761c4ec329cae8811c77eae4e3d2b00d0d218c169e0c459edb8d7e6",
     "c:2126cc1ab08c994198833861fcd8f3d5",
     "g:https://status.gohighlevel.com/incident/1072099#f177ea8c6f382421ae5c56f38be3e7538392009d7f3ecc6dc929b7ed0b4cab91",
-    "c:fdea609c530b9e5ced5fb66c86df3396"
+    "c:fdea609c530b9e5ced5fb66c86df3396",
+    "g:https://status.gohighlevel.com/incident/1073054#b825b51423b9b410c7e5b93dce5ba3af81b288e6a69bb8b8f351c9befbddacbe",
+    "c:eddd7ec1193bf902c0fd7afbc69d0fe7"
   ],
   "version": 1
 }
