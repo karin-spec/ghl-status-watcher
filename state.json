@@ -61,7 +61,8 @@
       "we re back thanks for bearing with us the issue causing third party threads integration impacting social planner has now been resolved thanks again for your patience"
     ],
     "1073054": [
-      "we are currently investigating an issue affecting opportunity related actions the find create and update opportunity actions are currently impacted our team is working on a fix and we ll share another update as soon as we have more information"
+      "we are currently investigating an issue affecting opportunity related actions the find create and update opportunity actions are currently impacted our team is working on a fix and we ll share another update as soon as we have more information",
+      "opportunity actions have been restored and the issue is now resolved the fix has been deployed to production and the affected functionality is working normally"
     ],
     "901732": [
       "we have resolved the issue",
@@ -1051,7 +1052,9 @@
     "g:https://status.gohighlevel.com/incident/1072099#f177ea8c6f382421ae5c56f38be3e7538392009d7f3ecc6dc929b7ed0b4cab91",
     "c:fdea609c530b9e5ced5fb66c86df3396",
     "g:https://status.gohighlevel.com/incident/1073054#b825b51423b9b410c7e5b93dce5ba3af81b288e6a69bb8b8f351c9befbddacbe",
-    "c:eddd7ec1193bf902c0fd7afbc69d0fe7"
+    "c:eddd7ec1193bf902c0fd7afbc69d0fe7",
+    "g:https://status.gohighlevel.com/incident/1073054#105c9b5d14e7a5f1356a5116ec264b994745cbcd45d7d381a2d198b9ae96a2d7",
+    "c:123f110063856c6afaeb1a08052c438b"
   ],
   "version": 1
 }
