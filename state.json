@@ -64,6 +64,9 @@
       "we are currently investigating an issue affecting opportunity related actions the find create and update opportunity actions are currently impacted our team is working on a fix and we ll share another update as soon as we have more information",
       "opportunity actions have been restored and the issue is now resolved the fix has been deployed to production and the affected functionality is working normally"
     ],
+    "1084234": [
+      "we are investigating an issue affecting whatsapp coexistence where echo messages are failing to sync for some contacts without whatsapp usernames our team is working to resolve the issue and will share updates as more information becomes available"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1054,7 +1057,9 @@
     "g:https://status.gohighlevel.com/incident/1073054#b825b51423b9b410c7e5b93dce5ba3af81b288e6a69bb8b8f351c9befbddacbe",
     "c:eddd7ec1193bf902c0fd7afbc69d0fe7",
     "g:https://status.gohighlevel.com/incident/1073054#105c9b5d14e7a5f1356a5116ec264b994745cbcd45d7d381a2d198b9ae96a2d7",
-    "c:123f110063856c6afaeb1a08052c438b"
+    "c:123f110063856c6afaeb1a08052c438b",
+    "g:https://status.gohighlevel.com/incident/1084234#c1d3246c744ed9c1631486911775e2f5c3c2e102c5d6c0e891014aca0759a95d",
+    "c:58484ed5021026d3b4beb18984c3aa81"
   ],
   "version": 1
 }
