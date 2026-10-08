@@ -65,7 +65,8 @@
       "opportunity actions have been restored and the issue is now resolved the fix has been deployed to production and the affected functionality is working normally"
     ],
     "1084234": [
-      "we are investigating an issue affecting whatsapp coexistence where echo messages are failing to sync for some contacts without whatsapp usernames our team is working to resolve the issue and will share updates as more information becomes available"
+      "we are investigating an issue affecting whatsapp coexistence where echo messages are failing to sync for some contacts without whatsapp usernames our team is working to resolve the issue and will share updates as more information becomes available",
+      "this issue is resolved now and services are working fine"
     ],
     "901732": [
       "we have resolved the issue",
@@ -1059,7 +1060,9 @@
     "g:https://status.gohighlevel.com/incident/1073054#105c9b5d14e7a5f1356a5116ec264b994745cbcd45d7d381a2d198b9ae96a2d7",
     "c:123f110063856c6afaeb1a08052c438b",
     "g:https://status.gohighlevel.com/incident/1084234#c1d3246c744ed9c1631486911775e2f5c3c2e102c5d6c0e891014aca0759a95d",
-    "c:58484ed5021026d3b4beb18984c3aa81"
+    "c:58484ed5021026d3b4beb18984c3aa81",
+    "g:https://status.gohighlevel.com/incident/1084234#8ba71057c17e644ad465ead5d7afa985eea36295b6fb7a97200b230bf2cd5eb6",
+    "c:36362a8e987682ece54324f4245c25e8"
   ],
   "version": 1
 }
