@@ -68,6 +68,14 @@
       "we are investigating an issue affecting whatsapp coexistence where echo messages are failing to sync for some contacts without whatsapp usernames our team is working to resolve the issue and will share updates as more information becomes available",
       "this issue is resolved now and services are working fine"
     ],
+    "1084841": [
+      "we are currently investigating an issue affecting workflow triggers related to appointment creation and status changes our engineering team is actively working to restore normal processing and validate the fix we will provide another update as soon as we have more information",
+      "the issue has been resolved the team restored the processing of appointment related events and validated that workflow triggers are firing as expected"
+    ],
+    "1085069": [
+      "impact on contacts from the contacts side we generate custom events for contact merge we re currently exploring how to recover the impacted data and safely retrigger these events from our end on the consumption side from contacts update events we only consume appointment related events created updated deleted for cdp activity logs and es indexing both flows are idempotent safe and can handle these events being retriggered impact on smartlist since the workflow and calendar appointment and attendee events were missed this would return incorrect result for customers in the smartlist replay of these events would fix these as the workers are idempotent there were other services impacted as well during the timelines mentioned above",
+      "issue stands resolved now and all the services are working as expected"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1062,7 +1070,15 @@
     "g:https://status.gohighlevel.com/incident/1084234#c1d3246c744ed9c1631486911775e2f5c3c2e102c5d6c0e891014aca0759a95d",
     "c:58484ed5021026d3b4beb18984c3aa81",
     "g:https://status.gohighlevel.com/incident/1084234#8ba71057c17e644ad465ead5d7afa985eea36295b6fb7a97200b230bf2cd5eb6",
-    "c:36362a8e987682ece54324f4245c25e8"
+    "c:36362a8e987682ece54324f4245c25e8",
+    "g:https://status.gohighlevel.com/incident/1085069#0d9d10c8a373a21173aef24ecbf3004b215b743c1911d4d86fa3e5aec9d606a9",
+    "c:c8b1edb731f7b0a139254d4d20a269f2",
+    "g:https://status.gohighlevel.com/incident/1084841#783c3111473d12736231ef4e3a97e5f3eda276c21c43493de3e0c1f4462cc7bc",
+    "c:f47421365d7473abb24efee9f29bfe15",
+    "g:https://status.gohighlevel.com/incident/1085069#376dfa81be72d5d8e5b5982e39cb6c196aa17a49385af293955deb8781f724a4",
+    "c:817fcc005b1f0c2115a22e76c6194547",
+    "g:https://status.gohighlevel.com/incident/1084841#b117b513384d2c57d9b8f6f940504f8e9cffd117b8d682a464ae055ad9fc6f98",
+    "c:2eb7bc3ae75edf8071fb92d1ee4780ff"
   ],
   "version": 1
 }
