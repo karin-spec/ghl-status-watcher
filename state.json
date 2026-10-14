@@ -78,7 +78,8 @@
     ],
     "1090210": [
       "we are experiencing a platform wide outage this is impacting all usage based products including wallet voice billing conversational ai billing domain purchases ai studio ai agents and workflow executions our team is working with to restore the affected data and recovery is currently in progress we will share further updates as more information becomes available",
-      "the issue has been largely resolved with the following services and functionalities restored ai studio confirmed working as expected workflows and automations restored and operational generations billing billing for generations is working as expected whatsapp fully restored and operational marketplace recovery is still in progress and the service remains unavailable we are continuing to work on restoring the marketplace service fully"
+      "the issue has been largely resolved with the following services and functionalities restored ai studio confirmed working as expected workflows and automations restored and operational generations billing billing for generations is working as expected whatsapp fully restored and operational marketplace recovery is still in progress and the service remains unavailable we are continuing to work on restoring the marketplace service fully",
+      "the issue has been fully resolved and all affected services and functionalities including ai studio workflows and automations generations billing whatsapp and marketplace are now operational and functioning as expected"
     ],
     "901732": [
       "we have resolved the issue",
@@ -1086,7 +1087,9 @@
     "g:https://status.gohighlevel.com/incident/1090210#504fbf2c8422d506a0932d22181a27369c9c025dd63ebe109cae4625a3597ab0",
     "c:abc491a93a83551654c304d7c187b3f5",
     "g:https://status.gohighlevel.com/incident/1090210#b8bc4e5f750a1176b7ef4ebbb666cfe30f1e7b1427180dda5d9d6f1f4fd28852",
-    "c:3c632a5caeb840188b1adbd3072820cd"
+    "c:3c632a5caeb840188b1adbd3072820cd",
+    "g:https://status.gohighlevel.com/incident/1090210#8ba29d5076244c97cc4c1b7e6d273d13e50dbed8699e178000eff630d8029ac4",
+    "c:843b022ae48035520c0a18ba38e411cb"
   ],
   "version": 1
 }
