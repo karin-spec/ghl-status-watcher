@@ -76,6 +76,10 @@
       "impact on contacts from the contacts side we generate custom events for contact merge we re currently exploring how to recover the impacted data and safely retrigger these events from our end on the consumption side from contacts update events we only consume appointment related events created updated deleted for cdp activity logs and es indexing both flows are idempotent safe and can handle these events being retriggered impact on smartlist since the workflow and calendar appointment and attendee events were missed this would return incorrect result for customers in the smartlist replay of these events would fix these as the workers are idempotent there were other services impacted as well during the timelines mentioned above",
       "issue stands resolved now and all the services are working as expected"
     ],
+    "1090210": [
+      "we are experiencing a platform wide outage this is impacting all usage based products including wallet voice billing conversational ai billing domain purchases ai studio ai agents and workflow executions our team is working with to restore the affected data and recovery is currently in progress we will share further updates as more information becomes available",
+      "the issue has been largely resolved with the following services and functionalities restored ai studio confirmed working as expected workflows and automations restored and operational generations billing billing for generations is working as expected whatsapp fully restored and operational marketplace recovery is still in progress and the service remains unavailable we are continuing to work on restoring the marketplace service fully"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1078,7 +1082,11 @@
     "g:https://status.gohighlevel.com/incident/1085069#376dfa81be72d5d8e5b5982e39cb6c196aa17a49385af293955deb8781f724a4",
     "c:817fcc005b1f0c2115a22e76c6194547",
     "g:https://status.gohighlevel.com/incident/1084841#b117b513384d2c57d9b8f6f940504f8e9cffd117b8d682a464ae055ad9fc6f98",
-    "c:2eb7bc3ae75edf8071fb92d1ee4780ff"
+    "c:2eb7bc3ae75edf8071fb92d1ee4780ff",
+    "g:https://status.gohighlevel.com/incident/1090210#504fbf2c8422d506a0932d22181a27369c9c025dd63ebe109cae4625a3597ab0",
+    "c:abc491a93a83551654c304d7c187b3f5",
+    "g:https://status.gohighlevel.com/incident/1090210#b8bc4e5f750a1176b7ef4ebbb666cfe30f1e7b1427180dda5d9d6f1f4fd28852",
+    "c:3c632a5caeb840188b1adbd3072820cd"
   ],
   "version": 1
 }
