@@ -81,6 +81,10 @@
       "the issue has been largely resolved with the following services and functionalities restored ai studio confirmed working as expected workflows and automations restored and operational generations billing billing for generations is working as expected whatsapp fully restored and operational marketplace recovery is still in progress and the service remains unavailable we are continuing to work on restoring the marketplace service fully",
       "the issue has been fully resolved and all affected services and functionalities including ai studio workflows and automations generations billing whatsapp and marketplace are now operational and functioning as expected"
     ],
+    "1092060": [
+      "we are investigating an issue affecting voice ai agents which are currently unable to answer live calls the issue began around 8 45 am utc following a feature deployment the initial investigation identified a missing import that disrupted the connection to a third party provider our team is working on a fix we will provide further updates as progress is made",
+      "the issue has been resolved and voice ai agents are now able to answer live calls as expected the service has been restored to normal operation"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1089,7 +1093,11 @@
     "g:https://status.gohighlevel.com/incident/1090210#b8bc4e5f750a1176b7ef4ebbb666cfe30f1e7b1427180dda5d9d6f1f4fd28852",
     "c:3c632a5caeb840188b1adbd3072820cd",
     "g:https://status.gohighlevel.com/incident/1090210#8ba29d5076244c97cc4c1b7e6d273d13e50dbed8699e178000eff630d8029ac4",
-    "c:843b022ae48035520c0a18ba38e411cb"
+    "c:843b022ae48035520c0a18ba38e411cb",
+    "g:https://status.gohighlevel.com/incident/1092060#a2de7cf25187b2a227e069a33293a5e01ada370f503bbfcc61ec26066012d5ae",
+    "c:4b5425a16b91256a200846f02613486e",
+    "g:https://status.gohighlevel.com/incident/1092060#765709ba66afa26ab3ab35052145a35241e782aa16171af531418787f63d9223",
+    "c:92b0d5372a493ae4a72153e0f01b21c3"
   ],
   "version": 1
 }
