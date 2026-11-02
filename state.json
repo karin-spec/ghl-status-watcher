@@ -85,6 +85,10 @@
       "we are investigating an issue affecting voice ai agents which are currently unable to answer live calls the issue began around 8 45 am utc following a feature deployment the initial investigation identified a missing import that disrupted the connection to a third party provider our team is working on a fix we will provide further updates as progress is made",
       "the issue has been resolved and voice ai agents are now able to answer live calls as expected the service has been restored to normal operation"
     ],
+    "1111496": [
+      "we are investigating reports of contact imports remaining in the processing state and not completing for some users this affects imports through contacts bulk actions we ll share updates as more information becomes available",
+      "issue is resolved now and contact imports are working fine"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1097,7 +1101,11 @@
     "g:https://status.gohighlevel.com/incident/1092060#a2de7cf25187b2a227e069a33293a5e01ada370f503bbfcc61ec26066012d5ae",
     "c:4b5425a16b91256a200846f02613486e",
     "g:https://status.gohighlevel.com/incident/1092060#765709ba66afa26ab3ab35052145a35241e782aa16171af531418787f63d9223",
-    "c:92b0d5372a493ae4a72153e0f01b21c3"
+    "c:92b0d5372a493ae4a72153e0f01b21c3",
+    "g:https://status.gohighlevel.com/incident/1111496#d2940da8c0d493608a0da477a8ed9042ee8910922d1a94c66975dbf51a4c66cd",
+    "c:7031baee786e6b7e525214dbdf6cb94f",
+    "g:https://status.gohighlevel.com/incident/1111496#1b31a920498ac200d42f99135767072a2ca384161bdd0cc902ac5cd7916266c4",
+    "c:c8607e706c7f0a845b56af1441b9cdf7"
   ],
   "version": 1
 }
