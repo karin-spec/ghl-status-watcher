@@ -89,6 +89,10 @@
       "we are investigating reports of contact imports remaining in the processing state and not completing for some users this affects imports through contacts bulk actions we ll share updates as more information becomes available",
       "issue is resolved now and contact imports are working fine"
     ],
+    "1116713": [
+      "we are investigating an issue where courses are not appearing correctly in community membership groups in the older clientportal app our team is investigating the issue to identify the cause and restore the affected functionality",
+      "the issue has been resolved and all affected services and functionalities have been restored the system is operating normally and we are continuing to monitor performance to ensure stability"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1105,7 +1109,11 @@
     "g:https://status.gohighlevel.com/incident/1111496#d2940da8c0d493608a0da477a8ed9042ee8910922d1a94c66975dbf51a4c66cd",
     "c:7031baee786e6b7e525214dbdf6cb94f",
     "g:https://status.gohighlevel.com/incident/1111496#1b31a920498ac200d42f99135767072a2ca384161bdd0cc902ac5cd7916266c4",
-    "c:c8607e706c7f0a845b56af1441b9cdf7"
+    "c:c8607e706c7f0a845b56af1441b9cdf7",
+    "g:https://status.gohighlevel.com/incident/1116713#421e5b607e8271ab725f0658606bd52dbb2a2dc2a12eb2f54d3f3890807ceccf",
+    "c:4972a48e3bbd5283de0ff1c30ca596e6",
+    "g:https://status.gohighlevel.com/incident/1116713#bdfab039a14f385f717c853c9ebf392588ac9974f5ec21bfdad62498b4ea7006",
+    "c:8b8a17bd45483f30a7e23f7e54f49aa5"
   ],
   "version": 1
 }
