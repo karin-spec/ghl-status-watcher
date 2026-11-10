@@ -93,6 +93,10 @@
       "we are investigating an issue where courses are not appearing correctly in community membership groups in the older clientportal app our team is investigating the issue to identify the cause and restore the affected functionality",
       "the issue has been resolved and all affected services and functionalities have been restored the system is operating normally and we are continuing to monitor performance to ensure stability"
     ],
+    "1121168": [
+      "we are investigating intermittent issues affecting the white label login page some users may experience difficulty accessing the page or signing in our team is working to resolve the issue and we will share updates as more information becomes available",
+      "the issues affecting the white label login page have been resolved users should now be able to access the page and sign in normally thank you for your patience"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1113,7 +1117,11 @@
     "g:https://status.gohighlevel.com/incident/1116713#421e5b607e8271ab725f0658606bd52dbb2a2dc2a12eb2f54d3f3890807ceccf",
     "c:4972a48e3bbd5283de0ff1c30ca596e6",
     "g:https://status.gohighlevel.com/incident/1116713#bdfab039a14f385f717c853c9ebf392588ac9974f5ec21bfdad62498b4ea7006",
-    "c:8b8a17bd45483f30a7e23f7e54f49aa5"
+    "c:8b8a17bd45483f30a7e23f7e54f49aa5",
+    "g:https://status.gohighlevel.com/incident/1121168#b319e56997b56caf32c47e3a2e6df6e4d368ce820c6e4d09985b8fc40408b0d2",
+    "c:6ec36360e743b6096ac9df003f7d6750",
+    "g:https://status.gohighlevel.com/incident/1121168#3ff06f70895590cfd67b348741166e99acdcecdc5d72f973f36d60ceea6ab338",
+    "c:881a20a68d0aab73ae3c5b5cdbf802d1"
   ],
   "version": 1
 }
