@@ -97,6 +97,9 @@
       "we are investigating intermittent issues affecting the white label login page some users may experience difficulty accessing the page or signing in our team is working to resolve the issue and we will share updates as more information becomes available",
       "the issues affecting the white label login page have been resolved users should now be able to access the page and sign in normally thank you for your patience"
     ],
+    "1123995": [
+      "status identified affected component conversations outlook email sync upstream incident microsoft ex1550543 start time november 12 2026 about 12 55 pm et 17 55 utc current state ongoing microsoft has given no estimated time for full recovery summary microsoft is having a major outage affecting exchange online the service behind outlook mailboxes microsoft has restored some servers but has not given an estimated time for full recovery impact highlevel s outlook two way email sync depends on microsoft s service so connected outlook accounts are affected incoming email most emails arriving in your outlook mailbox are not syncing into highlevel conversations these emails are still in your outlook mailbox outgoing email most emails sent from highlevel through a connected outlook account are not being delivered some show as failed others may not show an error what you can do please don t disconnect or reconnect your outlook account until microsoft recovers reconnecting during the outage may leave email sync inactive for urgent messages use another channel or email sender for now once service is restored resend any email sent from highlevel during this window that shows as failed or is missing from your outlook sent items folder next update we ll post an update when microsoft restores service references microsoft 365 service status microsoft 365 admin center service health admin sign in required search for ex1550543 microsoft 365 status updates on x"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1121,7 +1124,9 @@
     "g:https://status.gohighlevel.com/incident/1121168#b319e56997b56caf32c47e3a2e6df6e4d368ce820c6e4d09985b8fc40408b0d2",
     "c:6ec36360e743b6096ac9df003f7d6750",
     "g:https://status.gohighlevel.com/incident/1121168#3ff06f70895590cfd67b348741166e99acdcecdc5d72f973f36d60ceea6ab338",
-    "c:881a20a68d0aab73ae3c5b5cdbf802d1"
+    "c:881a20a68d0aab73ae3c5b5cdbf802d1",
+    "g:https://status.gohighlevel.com/incident/1123995#a830c5c57c907a8e727f7cbe147802aa2d00eaa96b7b83d0e5810a8bfb680656",
+    "c:77a6ac21fc0e2016c0f9b84a7a9acd5a"
   ],
   "version": 1
 }
