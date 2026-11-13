@@ -100,6 +100,10 @@
     "1123995": [
       "status identified affected component conversations outlook email sync upstream incident microsoft ex1550543 start time november 12 2026 about 12 55 pm et 17 55 utc current state ongoing microsoft has given no estimated time for full recovery summary microsoft is having a major outage affecting exchange online the service behind outlook mailboxes microsoft has restored some servers but has not given an estimated time for full recovery impact highlevel s outlook two way email sync depends on microsoft s service so connected outlook accounts are affected incoming email most emails arriving in your outlook mailbox are not syncing into highlevel conversations these emails are still in your outlook mailbox outgoing email most emails sent from highlevel through a connected outlook account are not being delivered some show as failed others may not show an error what you can do please don t disconnect or reconnect your outlook account until microsoft recovers reconnecting during the outage may leave email sync inactive for urgent messages use another channel or email sender for now once service is restored resend any email sent from highlevel during this window that shows as failed or is missing from your outlook sent items folder next update we ll post an update when microsoft restores service references microsoft 365 service status microsoft 365 admin center service health admin sign in required search for ex1550543 microsoft 365 status updates on x"
     ],
+    "1124443": [
+      "we are currently investigating an issue affecting the conversations module where some users across multiple locations may be unable to load messages our team is actively working to identify the cause and restore normal functionality we will continue to monitor the situation and provide further updates as more information becomes available",
+      "the conversations issue has been resolved and the service is now operating as expected"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1126,7 +1130,11 @@
     "g:https://status.gohighlevel.com/incident/1121168#3ff06f70895590cfd67b348741166e99acdcecdc5d72f973f36d60ceea6ab338",
     "c:881a20a68d0aab73ae3c5b5cdbf802d1",
     "g:https://status.gohighlevel.com/incident/1123995#a830c5c57c907a8e727f7cbe147802aa2d00eaa96b7b83d0e5810a8bfb680656",
-    "c:77a6ac21fc0e2016c0f9b84a7a9acd5a"
+    "c:77a6ac21fc0e2016c0f9b84a7a9acd5a",
+    "g:https://status.gohighlevel.com/incident/1124443#e614bb0dd996d5f745b5035f2b8b20da67f620a61709cf3fd4fe843eaf8e622e",
+    "c:986f3816c812dc7e58b30f894741a24b",
+    "g:https://status.gohighlevel.com/incident/1124443#e765a935158042e26051fa7a2f2d3a37417639fe2559fb11f7c1c6db3a09613c",
+    "c:621c4c31547afdd00b836a1dc9da2aa0"
   ],
   "version": 1
 }
