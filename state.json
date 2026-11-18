@@ -105,6 +105,10 @@
       "we are currently investigating an issue affecting the conversations module where some users across multiple locations may be unable to load messages our team is actively working to identify the cause and restore normal functionality we will continue to monitor the situation and provide further updates as more information becomes available",
       "the conversations issue has been resolved and the service is now operating as expected"
     ],
+    "1129352": [
+      "we are currently aware of a third party service disruption with elevenlabs affecting voice ai agencies using elevenlabs voices might see a voice drift from the original voice to different voices because of the failover behaviour the provider s team is actively investigating the issue and there is currently no confirmed eta for resolution we are monitoring their progress closely and will provide further updates as more information becomes available",
+      "the third party service disruption with elevenlabs has been resolved and voice ai and conversation ai are now fully operational"
+    ],
     "901732": [
       "we have resolved the issue",
       "we are currently investigating an issue where some users are unable to load the conversations tab within the crm multiple reports have been received and our engineering team has been notified and is actively investigating the root cause we will provide updates as soon as more information becomes available",
@@ -1137,7 +1141,11 @@
     "g:https://status.gohighlevel.com/incident/1124443#e765a935158042e26051fa7a2f2d3a37417639fe2559fb11f7c1c6db3a09613c",
     "c:621c4c31547afdd00b836a1dc9da2aa0",
     "g:https://status.gohighlevel.com/incident/1123995#a6f32618af9b69c119968dae07864d99293144bab77e00ec5a98453a57a91f34",
-    "c:ea17f87345184f332b29eb832adeae57"
+    "c:ea17f87345184f332b29eb832adeae57",
+    "g:https://status.gohighlevel.com/incident/1129352#167cfbd2b85fe96a98f4f1aae63e9ab2212193442761146c63dbfd7f0aeb3021",
+    "c:7dbcb858a9892cec7927f24211ea1faa",
+    "g:https://status.gohighlevel.com/incident/1129352#6997ae3e29b21331cb0ea999523dcd4310a16e8bc4cc11c344335ce63b76b0ed",
+    "c:b4aef2ade8f28c06a93dc8dbfd731d94"
   ],
   "version": 1
 }
